@@ -1,7 +1,7 @@
 ---
 name: New Word Request
 about: Add new word project
-title: New words request term 0
+title: New words request, term xxx(nnn-nnn)
 labels: enhancement
 assignees: Octobug
 
