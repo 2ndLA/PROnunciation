@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import device from '../config';
 
 const WordStyle = styled.div`
   font-size: 1.5em;
@@ -11,8 +12,18 @@ const WordStyle = styled.div`
     display: flex;
     justify-content: space-between;
   }
+  .word-cell{
+    min-width: 48px;
+  }
+  .word-reference{
+      display: none;
+  } 
+  @media ${device.tablet} {  
+    .word-reference{
+      display: inline-block;
+    } 
+  }
 `;
-
 
 const Word = props => (
   <WordStyle>
@@ -26,7 +37,7 @@ const Word = props => (
       <span className="word-cell">
         {props.symbol}
       </span>
-      <span className="word-cell">
+      <span className="word-cell word-reference">
         {props.reference}
       </span>
     </div>
