@@ -18,7 +18,7 @@ const WordTableStyle = styled.div`
     border-bottom: 2px solid #F5F5F5;
   }
   .row-even {
-    background: #f4eded;
+    background: #cccdce;
   }
   .cell {
     border: none;

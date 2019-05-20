@@ -1,4 +1,11 @@
 const GWords = [
+
+  {
+    spell: 'G',
+    sound: '',
+    symbol: '',
+    reference: '',
+  },
   {
     spell: 'god',
     sound: 'audio_path',

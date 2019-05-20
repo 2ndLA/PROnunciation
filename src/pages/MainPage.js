@@ -27,6 +27,10 @@ const Wrapper = styled.div`
   }
   .search{
     margin-bottom: 24px;
+    display: flex;
+  }
+  .search-input-icon {
+    padding-top: 2px;
   }
   .search-input {
     padding: 0px;
@@ -81,7 +85,9 @@ export default class MainPage extends Component {
           In addition, the writing is also the official way.
         </div>
         <div className="search">
-          <img src={search} alt="Search" className="search-input-icon" />
+          <div className="search-input-icon">
+            <img src={search} alt="Search" />
+          </div>
           <input
             className="search-input"
             type="text"
