@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   text-align: left;
   .title {
     font-size: 18px;
-    color: #808080;
+    color: #1a5288;
     line-height: 30px
   }
   .title-text{
@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   }
   .description {
     font-size: 14px;
-    color: #999999;
+    color: #888888;
     line-height: 17px;
     padding-top: 6px;
     margin-left: 30px;
@@ -44,7 +44,7 @@ const Wrapper = styled.div`
    }
   .search-input:focus {
     outline: 0;
-    color: #808080;
+    color: #707070;
   }
 
   @media ${device.laptop} {  
@@ -81,7 +81,7 @@ export default class MainPage extends Component {
           <span className="title-text">PROnunciation</span>
         </div>
         <div className="description">
-          Correct pronunciation makes you sound more professional(and causes lesser mishering).
+          Correct pronunciation makes you audio more professional(and causes lesser mishering).
           In addition, the writing is also the official way.
         </div>
         <div className="search">

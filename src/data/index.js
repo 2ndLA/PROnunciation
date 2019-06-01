@@ -25,6 +25,6 @@ import X from './x';
 import Y from './y';
 import Z from './z';
 
-const words = [].concat(A, B, C, D, E, F, G, H, I, J, K, L, M, N,
-  O, P, Q, R, S, T, U, V, W, X, Y, Z);
+const words = [A, B, C, D, E, F, G, H, I, J, K, L, M, N,
+  O, P, Q, R, S, T, U, V, W, X, Y, Z];
 export default words;

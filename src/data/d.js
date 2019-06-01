@@ -1,14 +1,2 @@
-const DWords = [
-  {
-    spell: 'D',
-    sound: '',
-    symbol: '',
-    reference: '',
-  },
-  {
-    spell: 'dog',
-    sound: 'audio_path',
-    symbol: '/wɜːd/',
-    reference: 'http://deep.com',
-  }];
+const DWords = [];
 export default DWords;

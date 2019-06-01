@@ -7,7 +7,7 @@ const classNames = require('classname');
 const WordTableStyle = styled.div`
   font-size: 1em;
   text-align: left;
-  color: #808080;
+  color: #606060;
   .table {
     width: 100%;
     border-spacing: 0px;
@@ -15,10 +15,16 @@ const WordTableStyle = styled.div`
     border-collapse: collapse;
   }
   .row {
-    border-bottom: 2px solid #F5F5F5;
+    border-bottom: 2px solid #f5f5f5;
   }
-  .row-even {
-    background: #cccdce;
+  .row-odd {
+    background: #f6f8fa;
+  }
+  .leading-row {
+    border-top: 3px solid #cbd8e4;
+    background: #eef3fb;
+    font-weight: bolder;
+    color: #6890b5;
   }
   .cell {
     border: none;
@@ -26,9 +32,6 @@ const WordTableStyle = styled.div`
     text-align: left;
     min-width: 80px;
   }
-  .cell-optional{
-      display: none;
-  } 
   @media ${device.tablet} {  
     .cell-optional{
       display: inline-block;
@@ -37,7 +40,10 @@ const WordTableStyle = styled.div`
 `;
 
 const WordRow = props => (
-  <tr className={classNames('row', { 'row-even': props.index % 2 === 0 })}>
+  <tr className={classNames('row',
+    { 'leading-row': props.index === 0 },
+    { 'row-odd': props.index % 2 !== 0 })}
+  >
     <td className="cell">
       {props.spell}
     </td>
@@ -45,23 +51,40 @@ const WordRow = props => (
       {props.symbol}
     </td>
     <td className="cell">
-      {props.sound}
+      {props.audio === '' ? null
+        : (
+          <audio controls>
+            <source src={require(`../audio/${props.audio}`)} type="audio/mpeg" />
+          您的浏览器不支持 audio 元素。
+          </audio>
+        )
+      }
     </td>
-    <td className="cell cell-optional">
+    <td className="cell">
       {props.reference}
     </td>
   </tr>
 );
 
 const WordTable = (props) => {
-  const headings = ['Spell', 'Pronunciation', 'Audio', 'Reference'];
-  const renderRow = (row, index) => <WordRow {...row} key={row.spell} index={index} />;
+  const headings = ['Spelling', 'Phonetic Symbol', 'Pronunciation', 'Reference'];
+  const renderTable = (table) => {
+    if (+table === 0) { return []; }
+    const leadingRow = [{
+      spell: table[0].spell[0].toUpperCase(),
+      audio: '',
+      symbol: '',
+      reference: '',
+    }];
+    const titledTable = leadingRow.concat(table);
+    return titledTable.map((row, index) => (<WordRow {...row} key={row.spell} index={index} />));
+  };
 
   const theadMarkup = (
     <tr className="row" key="heading">
       {headings.map(cell => (
         <th
-          className={classNames('cell', { 'cell-optional': cell === 'Reference' })}
+          className={classNames('cell')}
           key={cell}
         >
           {cell}
@@ -69,7 +92,7 @@ const WordTable = (props) => {
       ))}
     </tr>
   );
-  const tbodyMarkup = props.words.map(renderRow);
+  const tbodyMarkup = props.words.map(renderTable);
 
   return (
     <WordTableStyle>
