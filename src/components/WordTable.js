@@ -61,7 +61,7 @@ const WordRow = props => (
       }
     </td>
     <td className="cell">
-      {props.reference}
+      <a href={props.reference.url}>{props.reference.desc}</a>
     </td>
   </tr>
 );
@@ -74,7 +74,7 @@ const WordTable = (props) => {
       spell: table[0].spell[0].toUpperCase(),
       audio: '',
       symbol: '',
-      reference: '',
+      reference: {},
     }];
     const titledTable = leadingRow.concat(table);
     return titledTable.map((row, index) => (<WordRow {...row} key={row.spell} index={index} />));

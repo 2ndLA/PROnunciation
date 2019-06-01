@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import title from '../assets/title.png';
 import search from '../assets/search.png';
-import words from '../data';
+import wordLists from '../data';
 import WordTable from '../components/WordTable';
 import device from '../config';
 
@@ -59,18 +59,20 @@ const Wrapper = styled.div`
 export default class MainPage extends Component {
   state = {
     search: '',
-    wordList: words,
+    wordList: wordLists,
   }
 
   onInputChange = (event) => {
     this.setState({ search: event.target.value });
     this.setState({
-      wordList: words.filter(word => word.spell.includes(event.target.value)),
+      wordList: wordLists.map(words => words.filter(
+        word => word.spell.toLowerCase().includes(event.target.value.trim().toLowerCase()),
+      )),
     });
   }
 
   onReset = () => {
-    this.setState({ wordList: words });
+    this.setState({ wordList: wordLists });
   }
 
   render() {
@@ -81,7 +83,7 @@ export default class MainPage extends Component {
           <span className="title-text">PROnunciation</span>
         </div>
         <div className="description">
-          Correct pronunciation makes you audio more professional(and causes lesser mishering).
+          Correct pronunciation makes you sound more professional(and causes lesser mishering).
           In addition, the writing is also the official way.
         </div>
         <div className="search">
