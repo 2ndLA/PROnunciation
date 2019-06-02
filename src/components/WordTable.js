@@ -1,3 +1,6 @@
+/* eslint-disable global-require */
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 import styled from 'styled-components';
 import device from '../config';
@@ -26,11 +29,20 @@ const WordTableStyle = styled.div`
     font-weight: bolder;
     color: #6890b5;
   }
+  #table-header {
+    text-align:center;
+  }
   .cell {
     border: none;
     padding: 12px;
     text-align: left;
     min-width: 80px;
+  }
+  .cell-optional{
+    display: none;
+  }
+  .cell a {
+    color: #6890b5;
   }
   @media ${device.tablet} {  
     .cell-optional{
@@ -60,7 +72,7 @@ const WordRow = props => (
         )
       }
     </td>
-    <td className="cell">
+    <td className="cell cell-optional">
       <a href={props.reference.url}>{props.reference.desc}</a>
     </td>
   </tr>
@@ -69,7 +81,7 @@ const WordRow = props => (
 const WordTable = (props) => {
   const headings = ['Spelling', 'Phonetic Symbol', 'Pronunciation', 'Reference'];
   const renderTable = (table) => {
-    if (+table === 0) { return []; }
+    if (table.length === 0) { return []; }
     const leadingRow = [{
       spell: table[0].spell[0].toUpperCase(),
       audio: '',
@@ -84,7 +96,8 @@ const WordTable = (props) => {
     <tr className="row" key="heading">
       {headings.map(cell => (
         <th
-          className={classNames('cell')}
+          id="table-header"
+          className={classNames('cell', { 'cell-optional': cell === 'Reference' })}
           key={cell}
         >
           {cell}
