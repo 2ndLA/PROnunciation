@@ -1,16 +1,23 @@
 ---
-name: New Word Request
-about: Add new word project
+name: New Words Request
+about: Issue about new words requesting
 title: New words request, term xxx(nnn-nnn)
-labels: enhancement
+labels: vocabulary
 assignees: Octobug
 
 ---
 
 ### Comment your word in this issue with the format as below:
 
-| Word | audio(optional) | Phonetic Symbol(optional) | Reference(optional) |
+| Spelling | Phonetic Symbol(optional) | Pronunciation(optional) | Reference(optional) |
 | - | - | - | - |
-| word | link_to_audio | phonetic symbol | link_to_why_does_it_pronounce_so |
+| word | phonetic symbol | link_to_audio | link_to_why_does_it_pronounce_so |
 
-After the number of words reach 50, we will commit changes of this issue and deploy it.
+Raw:
+```
+| Spelling | Phonetic Symbol(optional) | Pronunciation(optional) | Reference(optional) |
+| - | - | - | - |
+| word | phonetic symbol | link_to_audio | link_to_why_does_it_pronounce_so |
+```
+
+After the number of words reaches 20, we will commit changes of this issue and deploy it.

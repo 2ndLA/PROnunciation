@@ -2,10 +2,29 @@
 Correct pronunciation makes you sound more professional(and causes lesser mishering). In addition, the writing is also the official way. 
 
 ### Workflow
-1. `git clone git@github.com:itechub/PROnunciation.git`
-2. Install dependencies: `yarn install`
-3. Run development server: `yarn start`
-4. Create a new branch to work on: `git checkout -b branch_name`
+
+1. git clone project
+    ```shell
+    git clone git@github.com:itechub/PROnunciation.git
+    ```
+2. Install dependencies
+   ```shell
+   cd PROnunciation
+   yarn install
+   ```
+3. Run development server
+   ```shell
+   yarn start
+   ````
+4. Create a new branch to work on
+   ```shell
+   # adding new words
+   git checkout -b words/term001
+   # or developing new feature
+   git checkout -b feature/new-feature
+   # or bugfix
+   git checkout -b bugfix/fix-the-error
+   ```
 5. Work on your branch
 6. Make a new pull request
 7. After pull request is merged, checkout to branch `master`, then run `yarn run deploy` if you have the push permission on `gh-pages` branch
