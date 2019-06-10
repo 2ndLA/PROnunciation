@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import title from '../assets/title.png';
 import search from '../assets/search.png';
-import wordLists from '../data';
+import dictionary from '../data';
 import WordTable from '../components/WordTable';
 import device from '../config';
 
@@ -59,20 +59,20 @@ const Wrapper = styled.div`
 export default class MainPage extends Component {
   state = {
     search: '',
-    wordList: wordLists,
+    dictionary,
   }
 
   onInputChange = (event) => {
     this.setState({ search: event.target.value });
     this.setState({
-      wordList: wordLists.map(words => words.filter(
+      dictionary: dictionary.map(words => words.filter(
         word => word.spell.toLowerCase().includes(event.target.value.trim().toLowerCase()),
       )),
     });
   }
 
   onReset = () => {
-    this.setState({ wordList: wordLists });
+    this.setState({ dictionary });
   }
 
   render() {
@@ -99,7 +99,7 @@ export default class MainPage extends Component {
           />
         </div>
         <div className="word-table">
-          <WordTable words={this.state.wordList} />
+          <WordTable dictionary={this.state.dictionary} />
         </div>
       </Wrapper>
     );

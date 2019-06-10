@@ -19,7 +19,7 @@ specific asset folder
 How to use:
 1. Sync your new words from github issues to `NewWords.txt`, one word per line
 2. Run the script with `python3 WordHelper.py`
-3. enjoy
+3. Enjoy
 """
 import os
 import json
@@ -79,7 +79,7 @@ def sync_word_db_to_file(word_db):
     for _file in os.listdir(DATA_DIR):
         with open(os.path.join(DATA_DIR, _file), "w") as fp:
             key = os.path.basename(_file).split(".")[0]
-            json.dump(word_db[key], fp)
+            json.dump(word_db[key], fp, ensure_ascii=False)
     print("Sync word_db to file successfully")
 
 
