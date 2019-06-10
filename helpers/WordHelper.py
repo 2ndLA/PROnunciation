@@ -61,7 +61,7 @@ def update_word_db(word_db, word, letter):
             except FileNotFoundError:
                 with open(os.path.join(DATA_DIR, json_file), "w+") as fp:
                     word_db[letter] = {}
-                    json.dump(word_db[letter], fp, ensure_ascii=False)
+                    json.dump(word_db[letter], fp, indent=2, ensure_ascii=False)
                     print("File `{file}` created.".format(file=json_file))
             return True
     else:
@@ -103,7 +103,7 @@ def sync_word_db_to_file(word_db):
     for letter, words in word_db.items():
         with open(os.path.join(DATA_DIR, letter + JSON_FILE_EXT), "w") as fp:
             ordered_words = collections.OrderedDict(sorted(words.items()))
-            json.dump(ordered_words, fp, ensure_ascii=False)
+            json.dump(ordered_words, fp, indent=2, ensure_ascii=False)
     print("Sync word_db to file successfully.")
 
 
