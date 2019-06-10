@@ -98,7 +98,7 @@ const WordTable = (props) => {
       references: [],
     };
     return Object.values(table).sort(
-      (a, b) => (a.spell < b.spell ? -1 : 1),
+      (a, b) => (a.spell.toLowerCase() < b.spell.toLowerCase() ? -1 : 1),
     ).map(
       (row, index) => (<WordRow {...row} key={row.spell} index={index} />),
     );
