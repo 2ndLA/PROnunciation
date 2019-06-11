@@ -26,11 +26,15 @@ import json
 import os
 import urllib.request
 
-GOOGLE_TRANSLATION_API = (
+GOOGLE_TRANSLATE_AUDIO_API = (
     "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=en&q="
+)
+GOOGLE_TRANSLATE_CN = (
+    "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text={}"
 )
 DATA_DIR = "../src/data/json/"
 JSON_FILE_EXT = ".json"
+AUDIO_EXT = ".mp3"
 NEW_WORD_FILE = "./NewWords.txt"
 ASSET_DIR = "../src/audio/"
 
@@ -69,14 +73,21 @@ def update_word_db(word_db, word, letter):
 
 
 def download_audio_resource(word):
-    # download related google translate audio resource
-    url = GOOGLE_TRANSLATION_API + word
-    audio_name = word + ".mp3"
+    """
+    Download related google translate audio resource
+    """
+    if os.path.exists(ASSET_DIR + word + AUDIO_EXT):
+        print("Audio already exists, downloading being skiped.")
+        return
+    url = GOOGLE_TRANSLATE_AUDIO_API + word
+    url = urllib.parse.quote(url, safe="://./_\?=&")
+    audio_name = word + AUDIO_EXT
     # fake user-agent to prevent 403 error
     opener = urllib.request.build_opener()
     opener.addheaders = [("User-agent", "Mozilla/5.0")]
     urllib.request.install_opener(opener)
     print("Downloading `{0}.mp3` from Google Translate.".format(word))
+    print("url: {}".format(url))
     urllib.request.urlretrieve(url, os.path.join(ASSET_DIR, audio_name))
     print("Download `{0}.mp3` successfully.".format(word))
 
@@ -88,12 +99,7 @@ def insert_new_word(word_db, word, letter):
         "symbol": "/placeholder/",
         "audio": "{0}.mp3".format(word),
         "references": [
-            {
-                "desc": "Google Translate",
-                "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text={}".format(
-                    word
-                ),
-            }
+            {"desc": "Google Translate", "url": GOOGLE_TRANSLATE_CN.format(word)}
         ],
     }
     word_db[letter][word.lower()] = new_word

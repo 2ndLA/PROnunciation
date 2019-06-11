@@ -1,7 +1,7 @@
 ---
 name: New Words Request
 about: Issue about new words requesting
-title: New words request, term xxx(nnn-nnn)
+title: New words request: Term xxx(nnn-nnn)
 labels: vocabulary
 assignees: Octobug
 
