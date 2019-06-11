@@ -44,10 +44,14 @@ const WordTableStyle = styled.div`
   .cell a {
     color: #6890b5;
   }
-  @media ${device.tablet} {  
+  @media ${device.tablet} {
     .cell-optional{
-      display: inline-block;
-    } 
+      display: table-cell;
+    }
+    .cell-optional a{
+      display: block;
+      text-decoration-line: none;
+    }
   }
 `;
 
@@ -67,34 +71,42 @@ const WordRow = props => (
         : (
           <audio controls>
             <source src={require(`../audio/${props.audio}`)} type="audio/mpeg" />
-          您的浏览器不支持 audio 元素。
+            您的浏览器不支持 audio 元素。
           </audio>
         )
       }
     </td>
     <td className="cell cell-optional">
-      <a href={props.reference.url}>{props.reference.desc}</a>
+      {props.references.map((ref, index) => (<a href={ref.url} key={index}>{ref.desc}</a>))}
     </td>
   </tr>
 );
 
 const WordTable = (props) => {
-  const headings = ['Spelling', 'Phonetic Symbol', 'Pronunciation', 'Reference'];
-  const renderTable = (table) => {
-    if (table.length === 0) { return []; }
-    const leadingRow = [{
-      spell: table[0].spell[0].toUpperCase(),
+  const headers = ['Spelling', 'Phonetic Symbol', 'Pronunciation', 'Reference'];
+
+  const renderTable = (data) => {
+    const dataAttrs = Object.keys(data);
+    if (dataAttrs.length === 0) { return []; }
+    // Create a leading row that only contains a upper case letter
+    const table = { ...data };
+    const letter = dataAttrs[0][0].toUpperCase();
+    table[letter] = {
+      spell: letter,
       audio: '',
       symbol: '',
-      reference: {},
-    }];
-    const titledTable = leadingRow.concat(table);
-    return titledTable.map((row, index) => (<WordRow {...row} key={row.spell} index={index} />));
+      references: [],
+    };
+    return Object.values(table).sort(
+      (a, b) => (a.spell.toLowerCase() < b.spell.toLowerCase() ? -1 : 1),
+    ).map(
+      (row, index) => (<WordRow {...row} key={row.spell} index={index} />),
+    );
   };
 
   const theadMarkup = (
     <tr className="row" key="heading">
-      {headings.map(cell => (
+      {headers.map(cell => (
         <th
           id="table-header"
           className={classNames('cell', { 'cell-optional': cell === 'Reference' })}
@@ -105,7 +117,7 @@ const WordTable = (props) => {
       ))}
     </tr>
   );
-  const tbodyMarkup = props.words.map(renderTable);
+  const tbodyMarkup = props.dictionary.map(renderTable);
 
   return (
     <WordTableStyle>
