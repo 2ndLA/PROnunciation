@@ -1,0 +1,39 @@
+{
+  "github": {
+    "spell": "GitHub",
+    "symbol": "/'ɡɪt.hʌb/",
+    "audio": "GitHub.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=GitHub"
+      }
+    ]
+  },
+  "gnu": {
+    "spell": "GNU",
+    "symbol": "/gnu:/",
+    "audio": "GNU.mp3",
+    "references": [
+      {
+        "desc": "HowToPronounce",
+        "url": "http://www.howtopronounce.cc/gnu"
+      }
+    ]
+  },
+  "gunicorn": {
+    "spell": "Gunicorn",
+    "symbol": "/griːn 'juːnɪkɔːn/",
+    "audio": "Gunicorn.mp3",
+    "references": [
+      {
+        "desc": "Gunicorn (GitHub)",
+        "url": "https://github.com/benoitc/gunicorn"
+      },
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Gunicorn"
+      }
+    ]
+  }
+}

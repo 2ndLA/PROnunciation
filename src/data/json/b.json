@@ -1,0 +1,24 @@
+{
+  "bochs": {
+    "spell": "Bochs",
+    "symbol": "/bɔx/",
+    "audio": "Bochs.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Bochs"
+      }
+    ]
+  },
+  "burp suite": {
+    "spell": "Burp Suite",
+    "symbol": "/'bɜːp swiːt/",
+    "audio": "Burp Suite.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Burp Suite"
+      }
+    ]
+  }
+}

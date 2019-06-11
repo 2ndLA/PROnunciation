@@ -1,0 +1,24 @@
+{
+  "nginx": {
+    "spell": "nginx",
+    "symbol": "/'endʒɪn.eks/",
+    "audio": "nginx.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=nginx"
+      }
+    ]
+  },
+  "nmon": {
+    "spell": "nmon",
+    "symbol": "/'en.mɒŋ/",
+    "audio": "nmon.mp3",
+    "references": [
+      {
+        "desc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=3lHhu5mTeN8"
+      }
+    ]
+  }
+}

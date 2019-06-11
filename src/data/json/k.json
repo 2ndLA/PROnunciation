@@ -1,0 +1,17 @@
+{
+  "kubernetes": {
+    "spell": "Kubernetes",
+    "symbol": "/k(j)uːbə'nɛtɪs/",
+    "audio": "Kubernetes.mp3",
+    "references": [
+      {
+        "desc": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/Kubernetes"
+      },
+      {
+        "desc": "HowToPronounce",
+        "url": "http://www.howtopronounce.cc/kubernetes"
+      }
+    ]
+  }
+}

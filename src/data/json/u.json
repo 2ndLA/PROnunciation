@@ -1,0 +1,13 @@
+{
+  "uwsgi": {
+    "spell": "uWSGI",
+    "symbol": "<uncertain>",
+    "audio": "uWSGI.mp3",
+    "references": [
+      {
+        "desc": "uwsgi (GitHub Issue)",
+        "url": "https://github.com/unbit/uwsgi/issues/1209"
+      }
+    ]
+  }
+}

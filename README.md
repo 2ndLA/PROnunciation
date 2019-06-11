@@ -35,4 +35,6 @@ Correct pronunciation makes you sound more professional(and causes lesser misher
 - [Deploying a React App* to GitHub Pages](https://github.com/gitname/react-gh-pages)
 - [Google Translate](https://translate.google.cn/)
 - [HowToPronounce](http://www.howtopronounce.cc/)
+- [YouTube](YouTube.com)
 - [有道 youdao](https://dict.youdao.com)
+- [Wiktionary](https://en.wiktionary.org/wiki/ansible)

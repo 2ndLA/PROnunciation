@@ -1,0 +1,13 @@
+{
+  "owasp": {
+    "spell": "OWASP",
+    "symbol": "/'əʊwɑsp/",
+    "audio": "OWASP.mp3",
+    "references": [
+      {
+        "desc": "Youdao",
+        "url": "http://dict.youdao.com/w/eng/owasp/#keyfrom=dict2.index"
+      }
+    ]
+  }
+}
