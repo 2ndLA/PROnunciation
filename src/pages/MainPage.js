@@ -52,7 +52,7 @@ const Wrapper = styled.div`
     max-width: 800px;
   }
   @media ${device.mobileL} {  
-    padding: 2.5em;
+    padding: 2em;
   }
 `;
 
