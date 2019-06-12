@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cce8147.chunk.css",
-    "main.js": "/static/js/main.2425196a.chunk.js",
-    "main.js.map": "/static/js/main.2425196a.chunk.js.map",
+    "main.css": "/static/css/main.cfda8877.chunk.css",
+    "main.js": "/static/js/main.99c321b6.chunk.js",
+    "main.js.map": "/static/js/main.99c321b6.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.c1115643.chunk.js": "/static/js/2.c1115643.chunk.js",
-    "static/js/2.c1115643.chunk.js.map": "/static/js/2.c1115643.chunk.js.map",
+    "static/js/2.9e2c29e1.chunk.js": "/static/js/2.9e2c29e1.chunk.js",
+    "static/js/2.9e2c29e1.chunk.js.map": "/static/js/2.9e2c29e1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c72ec824d04e70937b293db3499ce180.js": "/precache-manifest.c72ec824d04e70937b293db3499ce180.js",
+    "precache-manifest.27da2755204d2cc15614c5417631dd8a.js": "/precache-manifest.27da2755204d2cc15614c5417631dd8a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
+    "static/css/main.cfda8877.chunk.css.map": "/static/css/main.cfda8877.chunk.css.map",
     "static/media/Airbnb.mp3": "/static/media/Airbnb.a364e6ff.mp3",
     "static/media/Ansible.mp3": "/static/media/Ansible.b736a862.mp3",
     "static/media/Bochs.mp3": "/static/media/Bochs.79c0a080.mp3",
@@ -28,8 +28,10 @@
     "static/media/Python.mp3": "/static/media/Python.64d2400c.mp3",
     "static/media/nginx.mp3": "/static/media/nginx.b731a3c4.mp3",
     "static/media/nmon.mp3": "/static/media/nmon.7fffbe3f.mp3",
+    "static/media/playing.png": "/static/media/playing.a2fe988f.png",
     "static/media/pwn.mp3": "/static/media/pwn.31441578.mp3",
     "static/media/schema.mp3": "/static/media/schema.9dfd3bc5.mp3",
+    "static/media/stopped.png": "/static/media/stopped.d66f68d8.png",
     "static/media/uWSGI.mp3": "/static/media/uWSGI.bf0e0b18.mp3"
   }
 }
