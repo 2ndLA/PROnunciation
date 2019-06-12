@@ -1,17 +1,28 @@
 {
-    "mysql": {
-        "spell": "MySQL",
-        "symbol": "/maɪˌɛskjuːˈɛl/",
-        "audio": "MySQL.mp3",
-        "references": [
-            {
-                "desc": "Google Translate",
-                "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=MySQL"
-            },
-            {
-                "desc": "What is MySQL?",
-                "url": "https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html"
-            }
-        ]
-    }
+  "metasploit": {
+    "spell": "Metasploit",
+    "symbol": "/'metəsplɔɪt/",
+    "audio": "Metasploit.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Metasploit"
+      }
+    ]
+  },
+  "mysql": {
+    "spell": "MySQL",
+    "symbol": "/maɪˌɛskjuː'ɛl/",
+    "audio": "MySQL.mp3",
+    "references": [
+      {
+        "desc": "What is MySQL?",
+        "url": "https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html"
+      },
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=MySQL"
+      }
+    ]
+  }
 }

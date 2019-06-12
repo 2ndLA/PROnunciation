@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import title from '../assets/title.png';
-import search from '../assets/search.png';
+import searchIcon from '../assets/search.png';
 import dictionary from '../data';
 import WordTable from '../components/WordTable';
 import device from '../config';
@@ -63,11 +63,15 @@ export default class MainPage extends Component {
   }
 
   onInputChange = (event) => {
-    this.setState({ search: event.target.value });
+    const search = event.target.value;
+    this.setState({ search });
     this.setState({
-      dictionary: dictionary.map(words => words.filter(
-        word => word.spell.toLowerCase().includes(event.target.value.trim().toLowerCase()),
-      )),
+      dictionary: dictionary.map((words) => {
+        const filteredKeys = Object.keys(words).filter(
+          word => word.toLowerCase().includes(search.trim().toLowerCase()),
+        );
+        return filteredKeys.reduce((obj, key) => ({ ...obj, [key]: words[key] }), {});
+      }),
     });
   }
 
@@ -88,7 +92,7 @@ export default class MainPage extends Component {
         </div>
         <div className="search">
           <div className="search-input-icon">
-            <img src={search} alt="Search" />
+            <img src={searchIcon} alt="Search" />
           </div>
           <input
             className="search-input"

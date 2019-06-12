@@ -77,7 +77,16 @@ const WordRow = props => (
       }
     </td>
     <td className="cell cell-optional">
-      {props.references.map((ref, index) => (<a href={ref.url} key={index}>{ref.desc}</a>))}
+      {props.references.map((ref, index) => (
+        <a
+          href={ref.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          key={index}
+        >
+          {ref.desc}
+        </a>
+      ))}
     </td>
   </tr>
 );

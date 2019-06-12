@@ -30,8 +30,11 @@ Correct pronunciation makes you sound more professional(and causes lesser misher
 7. After pull request is merged, checkout to branch `master`, then run `yarn run deploy` if you have the push permission on `gh-pages` branch
 
 #### References
-- awesome-pronunciation: [guanpengchn/**awesome-pronunciation**](https://github.com/guanpengchn/awesome-pronunciation)
-- chinese-programmer-wrong-pronunciation: [shimohq/**chinese-programmer-wrong-pronunciation**](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
-- Deploying a React App* to GitHub Pages: [gitname/**react-gh-pages**](https://github.com/gitname/react-gh-pages)
-- Google Translate: [Google Translate](https://translate.google.cn/)
-- HowToPronounce: [The Pronunciation Dictionary](http://www.howtopronounce.cc/)
+- [Awesome Pronunciation](https://guanpengchn.github.io/awesome-pronunciation/)
+- [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
+- [Deploying a React App* to GitHub Pages](https://github.com/gitname/react-gh-pages)
+- [Google Translate](https://translate.google.cn/)
+- [HowToPronounce](http://www.howtopronounce.cc/)
+- [YouTube](YouTube.com)
+- [有道 youdao](https://dict.youdao.com)
+- [Wiktionary](https://en.wiktionary.org/wiki/ansible)
