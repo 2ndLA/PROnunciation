@@ -1,0 +1,13 @@
+{
+  "vlan": {
+    "spell": "Vlan",
+    "symbol": "/vi'læn/(Vee-Lan)",
+    "audio": "Vlan.mp3",
+    "references": [
+      {
+        "desc": "HowToPronounce",
+        "url": "http://www.howtopronounce.cc/vlan"
+      }
+    ]
+  }
+}

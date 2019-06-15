@@ -1,0 +1,24 @@
+{
+  "rally": {
+    "spell": "Rally",
+    "symbol": "/'ræli/",
+    "audio": "Rally.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Rally"
+      }
+    ]
+  },
+  "rancher": {
+    "spell": "Rancher",
+    "symbol": "/'ræntʃɚ/",
+    "audio": "Rancher.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Rancher"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "jenkins": {
+    "spell": "Jenkins",
+    "symbol": "/ˈdʒɛŋkɪnz/",
+    "audio": "Jenkins.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Jenkins"
+      }
+    ]
+  },
+  "jira": {
+    "spell": "Jira",
+    "symbol": "/ˈdʒiːrə/(JEEra)",
+    "audio": "Jira.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=JIRA"
+      },
+      {"desc": "Twitter",
+      "url": "https://twitter.com/jira/status/481844996715577344?lang=en"}
+    ]
+  },
+  "jupyter": {
+    "spell": "Jupyter",
+    "symbol": "/ˈdʒuːpɪtər/",
+    "audio": "Jupyter.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Jupyter"
+      }
+    ]
+  }
+}
