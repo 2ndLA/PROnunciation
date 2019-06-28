@@ -1,4 +1,30 @@
 {
+  "maven": {
+    "spell": "Maven",
+    "symbol": "/'mevn/",
+    "audio": "Maven.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Maven"
+      }
+    ]
+  },
+  "mercurial": {
+    "spell": "Mercurial",
+    "symbol": "/mɜːrˈkjʊriəl/",
+    "audio": "Mercurial.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Mercurial"
+      },
+      {
+        "desc": "Oxford Dict",
+        "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/mercurial"
+      }
+    ]
+  },
   "metasploit": {
     "spell": "Metasploit",
     "symbol": "/'metəsplɔɪt/",
@@ -7,6 +33,17 @@
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Metasploit"
+      }
+    ]
+  },
+  "msbuild": {
+    "spell": "MSBuild",
+    "symbol": "/'ɛm 'ɛs 'bɪld/",
+    "audio": "MSBuild.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=MSBuild"
       }
     ]
   },

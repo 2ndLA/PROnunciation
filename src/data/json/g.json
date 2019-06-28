@@ -1,4 +1,15 @@
 {
+  "git": {
+    "spell": "Git",
+    "symbol": "/placeholder/",
+    "audio": "Git.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Git"
+      }
+    ]
+  },
   "github": {
     "spell": "GitHub",
     "symbol": "/'ɡɪt.hʌb/",
@@ -10,6 +21,17 @@
       }
     ]
   },
+  "gitlab": {
+    "spell": "GitLab",
+    "symbol": "/'ɡɪt.læb/",
+    "audio": "GitLab.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=GitLab"
+      }
+    ]
+  },
   "gnu": {
     "spell": "GNU",
     "symbol": "/gnu:/",
@@ -18,6 +40,17 @@
       {
         "desc": "HowToPronounce",
         "url": "http://www.howtopronounce.cc/gnu"
+      }
+    ]
+  },
+  "gradle": {
+    "spell": "Gradle",
+    "symbol": "/g'reɪdl/",
+    "audio": "Gradle.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Gradle"
       }
     ]
   },
