@@ -20,4 +20,4 @@ Raw:
 | word | phonetic symbol | link_to_audio | link_to_why_does_it_pronounce_so |
 ```
 
-After the number of words reaches 20, we will commit changes of this issue and deploy it.
+After the number of words reaches 10, we will commit changes of this issue and deploy it.
