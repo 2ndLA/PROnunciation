@@ -57,6 +57,15 @@ const WordTableStyle = styled.div`
   .cell a {
     color: #6890b5;
   }
+  .cell .cell-reference-link {
+    opacity: 0.8;
+    color: #0277bd;
+    :hover {
+      opacity: 1;
+      text-shadow: #0277bd 1px 0 10px;
+      text-decoration:underline;
+    }
+  }
 
   @media ${device.tablet} {
     .cell-optional{
@@ -86,16 +95,21 @@ const WordRow = props => (
       {props.audio === '' ? null : (<Player {...props} />)}
     </td>
     <td className="cell cell-optional">
-      {props.references.map((ref, index) => (
-        <a
-          href={ref.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          key={index}
-        >
-          {ref.desc}
-        </a>
-      ))}
+      <ul>
+        {props.references.map((ref, index) => (
+          <li>
+            <a
+              href={ref.url}
+              className="cell-reference-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              key={index}
+            >
+              {ref.desc}
+            </a>
+          </li>
+        ))}
+      </ul>
     </td>
   </tr>
 );

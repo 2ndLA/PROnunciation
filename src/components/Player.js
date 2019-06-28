@@ -4,8 +4,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import playing from '../assets/playing.png';
-import stopped from '../assets/stopped.png';
+import playing from '../assets/play.png';
+import stopped from '../assets/stop.png';
 
 const PlayerStyle = styled.div`
 .audio-player {
