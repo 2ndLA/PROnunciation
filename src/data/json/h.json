@@ -9,5 +9,16 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Hurd"
       }
     ]
+  },
+  "hyperlink": {
+    "spell": "Hyperlink",
+    "symbol": "/ˈhaɪpərˌlɪŋk/",
+    "audio": "Hyperlink.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Hyperlink"
+      }
+    ]
   }
 }

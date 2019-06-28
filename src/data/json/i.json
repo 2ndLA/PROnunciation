@@ -1,0 +1,17 @@
+{
+  "iaas": {
+    "spell": "IaaS",
+    "symbol": "/aɪs/",
+    "audio": "IaaS.mp3",
+    "references": [
+      {
+        "desc": "Redit",
+        "url": "https://news.ycombinator.com/item?id=3228984"
+      },
+      {
+        "desc": "Quora",
+        "url": "https://www.quora.com/How-do-you-pronounce-IaaS"
+      }
+    ]
+  }
+}

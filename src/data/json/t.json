@@ -1,0 +1,24 @@
+{
+  "tensorflow": {
+    "spell": "Tensorflow",
+    "symbol": "/'tɛnsɚfləʊ/",
+    "audio": "Tensorflow.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Tensorflow"
+      }
+    ]
+  },
+  "travis": {
+    "spell": "Travis",
+    "symbol": "/ˈtɹævɪs/",
+    "audio": "Travis.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Travis"
+      }
+    ]
+  }
+}
