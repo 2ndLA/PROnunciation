@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74e5405fc1884144b7e7d6144a5808be",
+    "revision": "86758ee73dec222b530bcb0ab52036c0",
     "url": "/index.html"
   },
   {
-    "revision": "f4a24f4fee92d8ab65bd",
+    "revision": "2de3955bb58b0e348eaf",
     "url": "/static/css/main.32f6c586.chunk.css"
   },
   {
-    "revision": "40f4bb54be241f5c1402",
-    "url": "/static/js/2.4a6f43a7.chunk.js"
+    "revision": "f07fa9b93075807b92b4",
+    "url": "/static/js/2.58ad28cd.chunk.js"
   },
   {
-    "revision": "f4a24f4fee92d8ab65bd",
-    "url": "/static/js/main.2161d951.chunk.js"
+    "revision": "2de3955bb58b0e348eaf",
+    "url": "/static/js/main.dfe5e329.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b736a86237d038a238261bc1fe4f5342",
     "url": "/static/media/Ansible.b736a862.mp3"
+  },
+  {
+    "revision": "6acb627234aa5ff4cb9d0cbef39e608f",
+    "url": "/static/media/Ant.6acb6272.mp3"
   },
   {
     "revision": "d1c5f3689181dff764751c7ca6164f5a",
@@ -44,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Calico.ee74fbcc.mp3"
   },
   {
+    "revision": "751a386df1a24b0b84c318e35df73892",
+    "url": "/static/media/Chef.751a386d.mp3"
+  },
+  {
     "revision": "3d93ba7d5d8dd8cc0c959c44a2809c2b",
     "url": "/static/media/DevOps.3d93ba7d.mp3"
   },
@@ -60,8 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/GNU.b8891032.mp3"
   },
   {
+    "revision": "523349101c217efabfc4eeff088adfb2",
+    "url": "/static/media/Git.52334910.mp3"
+  },
+  {
     "revision": "437cafb7de8a6ba930404956a5ddaabe",
     "url": "/static/media/GitHub.437cafb7.mp3"
+  },
+  {
+    "revision": "439eeb0d525e623da6415cb2b0dfe445",
+    "url": "/static/media/GitLab.439eeb0d.mp3"
+  },
+  {
+    "revision": "a0b1915cdb19df3996532e35c5795306",
+    "url": "/static/media/Gradle.a0b1915c.mp3"
   },
   {
     "revision": "1264954b4bf06628bc8c821de15fcaf4",
@@ -104,6 +124,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Linux.92050a13.mp3"
   },
   {
+    "revision": "a18d571f463bdbdd335b21c6f9296266",
+    "url": "/static/media/MSBuild.a18d571f.mp3"
+  },
+  {
+    "revision": "379bc7c3b2beba33a0066f62fb691db6",
+    "url": "/static/media/Maven.379bc7c3.mp3"
+  },
+  {
+    "revision": "cc6490de20900e3d03b7d40a00833647",
+    "url": "/static/media/Mercurial.cc6490de.mp3"
+  },
+  {
     "revision": "d2f56ca4f2614ee5b43d168bf419623f",
     "url": "/static/media/Metasploit.d2f56ca4.mp3"
   },
@@ -114,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f10ed96e293cf79c04ebabf479279b4",
     "url": "/static/media/OWASP.3f10ed96.mp3"
+  },
+  {
+    "revision": "9d13b083d79c9b07f844f28852dd2390",
+    "url": "/static/media/Puppet.9d13b083.mp3"
   },
   {
     "revision": "64d2400cfb43727edd8fcd2600494e95",
@@ -130,6 +166,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d261312aeb84cab83c3f213cdba37324",
     "url": "/static/media/Rancher.d261312a.mp3"
+  },
+  {
+    "revision": "621c5ac898032441469887c269efba39",
+    "url": "/static/media/Subversion.621c5ac8.mp3"
   },
   {
     "revision": "d9fd12388f02f0fed7912b77976ec1ef",
