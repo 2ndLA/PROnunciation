@@ -5,7 +5,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Player from './Player';
-import device from '../config';
+import { device } from '../config';
 
 const classNames = require('classname');
 

@@ -4,11 +4,11 @@ import ListPNG from '../assets/list.png';
 import ListDownPNG from '../assets/list-down.png';
 import searchIcon from '../assets/search.png';
 import dictionary from '../data';
-import WordTable from '../components/WordTable';
-import device from '../config';
+import { device, size } from '../config';
+import { WordTable } from '../components';
 
 const Wrapper = styled.div`
-  font-family: Helvetica;
+  font-family: "Lato", Helvetica, sans-serif;
   text-align: left;
   .title-icon {
     :hover {
@@ -63,9 +63,9 @@ const Wrapper = styled.div`
     }
   }
 
-  @media ${device.laptop} {  
+  @media ${device.laptopS} {  
     margin: 0 auto;
-    max-width: 800px;
+    max-width: ${size.tablet};
   }
   @media ${device.mobileL} {  
     padding: 2em;
@@ -108,10 +108,10 @@ export default class MainPage extends Component {
           <span className="title-text">PROnunciation</span>
           {this.state.expand && (
             <div className="description">
-            Correct pronunciation makes you sound more professional(and causes lesser mishering).
-            In addition, the writing is also the official way.
+              Correct pronunciation makes you sound more professional(and causes lesser mishering).
+              In addition, the writing is also the official way.
             </div>
-          ) }
+          )}
         </div>
         <div className="search">
           <div className="search-input-icon">
@@ -125,7 +125,7 @@ export default class MainPage extends Component {
             onChange={this.onInputChange}
           />
           {this.state.search
-          && <span onClick={this.onReset} className="search-input-reset">×</span> }
+            && <span onClick={this.onReset} className="search-input-reset">×</span>}
         </div>
         <div className="word-table">
           <WordTable dictionary={this.state.dictionary} />
