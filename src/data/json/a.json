@@ -28,5 +28,16 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Ansible"
       }
     ]
+  },
+  "ant": {
+    "spell": "Ant",
+    "symbol": "/ænt/",
+    "audio": "Ant.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Ant"
+      }
+    ]
   }
 }

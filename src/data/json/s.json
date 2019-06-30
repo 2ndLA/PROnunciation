@@ -9,5 +9,16 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=schema"
       }
     ]
+  },
+  "subversion": {
+    "spell": "Subversion",
+    "symbol": "/səbˈvɜrʒ(ə)n/",
+    "audio": "Subversion.mp3",
+    "references": [
+      {
+        "desc": "Cambridge Dict",
+        "url": "https://dictionary.cambridge.org/us/pronunciation/english/subversion"
+      }
+    ]
   }
 }

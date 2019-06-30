@@ -125,7 +125,7 @@ export default class MainPage extends Component {
             onChange={this.onInputChange}
           />
           {this.state.search
-          && <span onClick={this.onReset} className="search-input-reset">x</span> }
+          && <span onClick={this.onReset} className="search-input-reset">×</span> }
         </div>
         <div className="word-table">
           <WordTable dictionary={this.state.dictionary} />
