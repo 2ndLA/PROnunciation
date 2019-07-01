@@ -97,7 +97,7 @@ const WordRow = props => (
     <td className="cell cell-optional">
       <ul>
         {props.references.map((ref, index) => (
-          <li>
+          <li key={index}>
             <a
               href={ref.url}
               className="cell-reference-link"

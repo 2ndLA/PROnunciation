@@ -17,6 +17,7 @@ import {
 } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 import MenuIcon from '@material-ui/icons/Menu';
+import Cancel from '@material-ui/icons/Cancel';
 import { fade } from '@material-ui/core/styles';
 
 import Menu from './Menu';
@@ -30,6 +31,7 @@ const styles = theme => ({
     backgroundColor: 'white',
   },
   itemsLayout: {
+    minHeight: '56px',
     display: 'flex',
     alignItems: 'center',
     [theme.breakpoints.down('sm')]: {
@@ -55,7 +57,7 @@ const styles = theme => ({
     display: 'inline-block',
     borderLeft: `1px solid ${theme.palette.grey.A100}`,
     marginLeft: 24,
-    paddingLeft: 24,
+    paddingLeft: 22,
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
@@ -72,6 +74,9 @@ const styles = theme => ({
     color: 'white',
     backgroundColor: colors.cyan[800],
     borderRadius: '3px',
+  },
+  nounce: {
+    color: colors.teal[50],
   },
   campLabel: {
     color: colors.deepOrange['300'],
@@ -140,6 +145,22 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  resetIcon: {
+    width: theme.spacing(4),
+    padding: theme.spacing(0, 0.5),
+    height: '100%',
+    position: 'absolute',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    right: 0,
+    top: 0,
+    opacity: 0.2,
+    '&:hover': {
+      opacity: 0.4,
+      cursor: 'pointer',
+    },
+  },
   inputRoot: {
     color: 'inherit',
   },
@@ -158,18 +179,16 @@ const styles = theme => ({
 
 const MenuLink = (props, ref) => (
   <a href={props.url} target={props.target} className={props.className}>
-    {props.img
-      ? (
-        <img
-          src={props.img}
-          alt={props.name}
-          style={{
-            height: '20px',
-            paddingRight: '5px',
-          }}
-        />
-      )
-      : null}
+    {props.img && (
+      <img
+        src={props.img}
+        alt={props.name}
+        style={{
+          height: '20px',
+          paddingRight: '5px',
+        }}
+      />
+    ) }
     {props.name}
   </a>
 );
@@ -177,6 +196,7 @@ const MenuLink = (props, ref) => (
 class Header extends Component {
   state = {
     menuDrawer: false,
+    searchText: '',
   };
 
   componentDidMount() {
@@ -209,7 +229,8 @@ class Header extends Component {
                   <span
                     className={clsx(classes.appName, classes.pronLabel)}
                   >
-                  PROnunciation
+                    <span>PRO</span>
+                    <span className={classes.nounce}>nunciation</span>
                   </span>
                 </a>
               </Typography>
@@ -226,7 +247,7 @@ class Header extends Component {
                         <span
                           className={clsx(classes.appName, classes.campLabel)}
                         >
-                        Campfire
+                          Campfire
                         </span>
                       </a>
                     </Typography>
@@ -242,7 +263,23 @@ class Header extends Component {
                         input: classes.inputInput,
                       }}
                       inputProps={{ 'aria-label': 'Search' }}
+                      onChange={(event) => {
+                        this.setState({ searchText: event.target.value });
+                        this.props.onSearch(event);
+                      }}
+                      value={this.state.searchText}
                     />
+                    {this.state.searchText
+                      && (
+                        <span
+                          onMouseDown={() => {
+                            this.props.onReset(); this.setState({ searchText: '' });
+                          }}
+                          className={classes.resetIcon}
+                        >
+                          <Cancel />
+                        </span>
+                      )}
                   </div>
                   <div className={classes.iconContainer}>
                     <IconButton onClick={this.mobileMenuOpen} className={classes.iconButton} color="inherit" aria-label="Menu">
