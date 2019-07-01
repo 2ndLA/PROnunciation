@@ -1,4 +1,26 @@
 {
+  "paas": {
+    "spell": "PaaS",
+    "symbol": "/pæs/",
+    "audio": "PaaS.mp3",
+    "references": [
+      {
+        "desc": "Youtube",
+        "url": "https://www.youtube.com/watch?v=aZ40GobvA1c"
+      }
+    ]
+  },
+  "pipeline": {
+    "spell": "Pipeline",
+    "symbol": "/'paɪplaɪn/",
+    "audio": "Pipeline.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Pipeline"
+      }
+    ]
+  },
   "puppet": {
     "spell": "Puppet",
     "symbol": "/'pʌpɪt/",

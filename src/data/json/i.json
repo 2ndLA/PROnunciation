@@ -13,5 +13,16 @@
         "url": "https://www.quora.com/How-do-you-pronounce-IaaS"
       }
     ]
+  },
+  "itil": {
+    "spell": "ITIL",
+    "symbol": "/'aɪtɪl/",
+    "audio": "ITIL.mp3",
+    "references": [
+      {
+        "desc": "Pronouce Wiki",
+        "url": "https://www.pronouncekiwi.com/ITIL%20v3"
+      }
+    ]
   }
 }

@@ -19,8 +19,25 @@
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=JIRA"
       },
-      {"desc": "Twitter",
-      "url": "https://twitter.com/jira/status/481844996715577344?lang=en"}
+      {
+        "desc": "Twitter",
+        "url": "https://twitter.com/jira/status/481844996715577344?lang=en"
+      }
+    ]
+  },
+  "junit": {
+    "spell": "JUnit",
+    "symbol": "dʒeɪ'junɪt/",
+    "audio": "JUnit.mp3",
+    "references": [
+      {
+        "desc": "How to Pronouce",
+        "url": "http://www.howtopronounce.cc/junit"
+      },
+      {
+        "desc": "youglish",
+        "url": "https://youglish.com/search/junit/uk"
+      }
     ]
   },
   "jupyter": {
