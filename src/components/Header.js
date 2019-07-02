@@ -118,6 +118,10 @@ const styles = theme => ({
     fontSize: '0.8rem',
     minHeight: '4em',
     color: theme.palette.grey['600'],
+    '&:hover': {
+      backgroundColor: fade(colors.cyan[800], 0.1),
+      color: colors.cyan[800],
+    },
   },
 });
 
@@ -133,7 +137,7 @@ const MenuLink = (props, ref) => (
         }}
       />
     ) }
-    {props.name}
+    {!props.imgOnly && props.name}
   </a>
 );
 
@@ -199,7 +203,12 @@ class Header extends Component {
                 </IconButton>
               </div>
               <div className={classes.tabContainer}>
-                <SwipeableDrawer anchor="right" open={this.state.menuDrawer} onClose={this.mobileMenuClose} onOpen={this.mobileMenuOpen}>
+                <SwipeableDrawer
+                  anchor="right"
+                  open={this.state.menuDrawer}
+                  onClose={this.mobileMenuClose}
+                  onOpen={this.mobileMenuOpen}
+                >
                   <List>
                     {Menu.map((item, index) => (
                       <ListItem
@@ -207,7 +216,6 @@ class Header extends Component {
                         url={item.url}
                         name={item.name}
                         target="_blank"
-                        img={item.img}
                         classes={{ root: classes.listItem }}
                         button
                         key={index}
@@ -231,6 +239,7 @@ class Header extends Component {
                           name={item.name}
                           target="_blank"
                           img={item.img}
+                          imgOnly={item.imgOnly}
                           classes={{ root: classes.tabItem }}
                           key={index}
                         />

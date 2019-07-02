@@ -12,9 +12,10 @@ const Menu = [
     url: 'https://github.com/itechub/PROnunciation/issues',
   },
   {
-    name: '',
+    name: 'GitHub Stars',
     img: 'https://img.shields.io/github/stars/itechub/PROnunciation.svg?style=social',
     url: 'https://github.com/itechub/PROnunciation',
+    imgOnly: true,
   },
 ];
 
