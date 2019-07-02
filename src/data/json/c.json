@@ -20,5 +20,16 @@
         "url": "https://dictionary.cambridge.org/us/pronunciation/english/chef"
       }
     ]
+  },
+  "cucumber": {
+    "spell": "Cucumber",
+    "symbol": "/ˈkjuˌkʌmbər/",
+    "audio": "Cucumber.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Cucumber"
+      }
+    ]
   }
 }
