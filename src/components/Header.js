@@ -40,7 +40,6 @@ const styles = theme => ({
   link: {
     textDecoration: 'none',
     color: 'inherit',
-    '-webkitTapHighlightColor': 'transparent',
   },
   logoImg: {
     display: 'inline',

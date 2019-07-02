@@ -1,11 +1,11 @@
 {
   "uwsgi": {
     "spell": "uWSGI",
-    "symbol": "/maɪkrəʊ 'hwɪski/ [Micro Whiskey]",
+    "symbol": "/maɪkrəʊ 'hwɪski/|Micro Whiskey",
     "audio": "uWSGI.mp3",
     "references": [
       {
-        "desc": "uwsgi (GitHub Issue)",
+        "desc": "uwsgi (GitHub)",
         "url": "https://github.com/unbit/uwsgi/issues/1209"
       }
     ]

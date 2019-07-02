@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   font-family: "Lato", Helvetica, sans-serif;
   text-align: left;
   padding: 1em 0;
-  margin: 48px 0;
+  margin: 48px 0 24px 0;
   @media ${device.mobileM} {
     padding: 1em 2em;
   }
