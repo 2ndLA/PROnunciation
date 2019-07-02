@@ -3,9 +3,11 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 import styled from 'styled-components';
+import { fade } from '@material-ui/core/styles';
+import { colors } from '@material-ui/core';
 
 import Player from './Player';
-import device from '../config';
+import { device, size } from '../config';
 
 const classNames = require('classname');
 
@@ -17,27 +19,41 @@ const WordTableStyle = styled.div`
   .table {
     width: 100%;
     border-spacing: 0px;
-    background: #ffffff;
+    background: white;
     border-collapse: collapse;
   }
 
-  .row {
-    border-bottom: 2px solid #f5f5f5;
+  thead .row {
+    color: ${colors.blueGrey[400]};
+    text-transform: uppercase;
   }
 
   .row-odd {
-    background: #f6f8fa;
+    background: ${fade(colors.blueGrey[900], 0.02)};
   }
   
   .leading-row {
-    border-top: 3px solid #cbd8e4;
-    background: #eef3fb;
+    border-top: 3px solid ${fade(colors.cyan[900], 0.1)};
+    background: ${fade(colors.blueGrey[900], 0.05)};;
     font-weight: bolder;
-    color: #6890b5;
+    color: ${fade(colors.blueGrey[800], 0.7)};
   }
 
   .common-row td {
-    padding: 15px 25px;
+    padding: 5px 5px;
+  }
+
+  @media ${`(max-width: ${size.mobileM})`} {
+    .common-row td:first-child {
+      padding-left: 25px;
+    }
+  }
+
+  @media ${device.mobileM} {
+    .common-row td {
+      padding: 5px 35px;
+      padding-left: 35px;
+    }
   }
 
   .center {
@@ -59,11 +75,12 @@ const WordTableStyle = styled.div`
   }
   .cell .cell-reference-link {
     opacity: 0.8;
-    color: #0277bd;
+    color: ${fade(colors.blueGrey[900], 0.7)};;
+    margin: 5px 0;
     :hover {
       opacity: 1;
-      text-shadow: #0277bd 1px 0 10px;
-      text-decoration:underline;
+      text-shadow: ${fade(colors.cyan[700], 0.7)} 0 0 20px;
+      text-decoration: underline;
     }
   }
 
@@ -95,9 +112,9 @@ const WordRow = props => (
       {props.audio === '' ? null : (<Player {...props} />)}
     </td>
     <td className="cell cell-optional">
-      <ul>
+      <ul style={{ margin: 0 }}>
         {props.references.map((ref, index) => (
-          <li>
+          <li key={index}>
             <a
               href={ref.url}
               className="cell-reference-link"
@@ -115,7 +132,7 @@ const WordRow = props => (
 );
 
 const WordTable = (props) => {
-  const headers = ['Spelling', 'Phonetic Symbol', 'Pronunciation', 'Reference'];
+  const headers = ['Spelling', 'Phonetic Symbol', 'Pronunciation', 'References'];
 
   const renderTable = (data) => {
     const dataAttrs = Object.keys(data);
@@ -140,7 +157,7 @@ const WordTable = (props) => {
     <tr className="row" key="heading">
       {headers.map(cell => (
         <th
-          className={classNames('cell', 'center', { 'cell-optional': cell === 'Reference' })}
+          className={classNames('cell', 'center', { 'cell-optional': cell === 'References' })}
           key={cell}
         >
           {cell}
