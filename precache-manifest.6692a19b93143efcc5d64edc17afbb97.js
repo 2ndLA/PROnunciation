@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86758ee73dec222b530bcb0ab52036c0",
+    "revision": "bfa16c47366b8de8f09f2634b7ab04d2",
     "url": "/index.html"
   },
   {
-    "revision": "2de3955bb58b0e348eaf",
-    "url": "/static/css/main.32f6c586.chunk.css"
+    "revision": "67138900a5b47c4b161c",
+    "url": "/static/css/main.f5be1156.chunk.css"
   },
   {
-    "revision": "f07fa9b93075807b92b4",
-    "url": "/static/js/2.58ad28cd.chunk.js"
+    "revision": "333267200ca69eca38b2",
+    "url": "/static/js/2.a2e30fac.chunk.js"
   },
   {
-    "revision": "2de3955bb58b0e348eaf",
-    "url": "/static/js/main.dfe5e329.chunk.js"
+    "revision": "67138900a5b47c4b161c",
+    "url": "/static/js/main.0823a295.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -52,12 +52,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Chef.751a386d.mp3"
   },
   {
+    "revision": "605c66706df735b8f64800950834ee25",
+    "url": "/static/media/Cucumber.605c6670.mp3"
+  },
+  {
+    "revision": "8be61713508415437bdc75b3759e3318",
+    "url": "/static/media/Daemon.8be61713.mp3"
+  },
+  {
     "revision": "3d93ba7d5d8dd8cc0c959c44a2809c2b",
     "url": "/static/media/DevOps.3d93ba7d.mp3"
   },
   {
     "revision": "322ac1846a519c653f8b3f5dfd850114",
     "url": "/static/media/ELK.322ac184.mp3"
+  },
+  {
+    "revision": "632ddd207ddf3e7d0e9fa5a9e316428d",
+    "url": "/static/media/FitNesse.632ddd20.mp3"
   },
   {
     "revision": "e5a23c7c4494c2d94ae7cc822c33a477",
@@ -96,8 +108,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Hyperlink.00827f00.mp3"
   },
   {
+    "revision": "8cd4d9497aec355b10d555e777ad7899",
+    "url": "/static/media/ITIL.8cd4d949.mp3"
+  },
+  {
     "revision": "faa92926a7d367e78fe5f3ae937c2b5e",
     "url": "/static/media/IaaS.faa92926.mp3"
+  },
+  {
+    "revision": "2e16abde02c89c5db3b25c39c0be75d7",
+    "url": "/static/media/JUnit.2e16abde.mp3"
   },
   {
     "revision": "3aba5c67da9cedcbb73840df9dccf191",
@@ -144,8 +164,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MySQL.9dc60e84.mp3"
   },
   {
+    "revision": "6ed008fd1fbb94c1f7472a13ef9968ec",
+    "url": "/static/media/Nagios.6ed008fd.mp3"
+  },
+  {
     "revision": "3f10ed96e293cf79c04ebabf479279b4",
     "url": "/static/media/OWASP.3f10ed96.mp3"
+  },
+  {
+    "revision": "41527127a04d332afce68892ec892506",
+    "url": "/static/media/PaaS.41527127.mp3"
+  },
+  {
+    "revision": "d903d95eacb8a2b0d7a9bddfc0afbc25",
+    "url": "/static/media/Pipeline.d903d95e.mp3"
   },
   {
     "revision": "9d13b083d79c9b07f844f28852dd2390",
@@ -168,8 +200,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Rancher.d261312a.mp3"
   },
   {
+    "revision": "c32e7980b3bde1ce62c857478c14e85f",
+    "url": "/static/media/SaaS.c32e7980.mp3"
+  },
+  {
+    "revision": "1ec57b6550a7db79d07b0f26247442e0",
+    "url": "/static/media/Scrum.1ec57b65.mp3"
+  },
+  {
+    "revision": "60f77276c8fc42a3d16100843417b6fc",
+    "url": "/static/media/Selenium.60f77276.mp3"
+  },
+  {
+    "revision": "922368757abc9c4e6abf9f2244a2ff9a",
+    "url": "/static/media/Spring Boot.92236875.mp3"
+  },
+  {
     "revision": "621c5ac898032441469887c269efba39",
     "url": "/static/media/Subversion.621c5ac8.mp3"
+  },
+  {
+    "revision": "d72f5fca40a02c06109c7f95a6678367",
+    "url": "/static/media/Swarm.d72f5fca.mp3"
   },
   {
     "revision": "d9fd12388f02f0fed7912b77976ec1ef",
@@ -194,6 +246,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8d903cae779e4a2fd643ba4a7a3e8b7e",
     "url": "/static/media/Yum.8d903cae.mp3"
+  },
+  {
+    "revision": "3b24a3e368230bc8c7b24ca1c772b437",
+    "url": "/static/media/Zabbix.3b24a3e3.mp3"
   },
   {
     "revision": "6a206681ded0032a345317c9dde888c3",
