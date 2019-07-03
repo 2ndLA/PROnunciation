@@ -7,6 +7,7 @@ import { fade } from '@material-ui/core/styles';
 import { colors } from '@material-ui/core';
 
 import Player from './Player';
+import PopOver from './PopOver';
 import { device, size } from '../config';
 
 const classNames = require('classname');
@@ -40,19 +41,26 @@ const WordTableStyle = styled.div`
   }
 
   .common-row td {
-    padding: 5px 5px;
+    padding: 5px 15px;
   }
 
   @media ${`(max-width: ${size.mobileM})`} {
     .common-row td:first-child {
-      padding-left: 25px;
+      padding-left: 20px;
     }
   }
 
   @media ${device.mobileM} {
     .common-row td {
-      padding: 5px 35px;
-      padding-left: 35px;
+      padding: 5px 5px;
+      padding-left: 20px;
+    }
+  }
+
+  @media ${device.tablet} {
+    .common-row td {
+      padding: 5px 30px;
+      padding-left: 40px;
     }
   }
 
@@ -84,7 +92,7 @@ const WordTableStyle = styled.div`
     }
   }
 
-  @media ${device.tablet} {
+  @media ${device.mobileL} {
     .cell-optional{
       display: table-cell;
     }
@@ -96,43 +104,50 @@ const WordTableStyle = styled.div`
   }
 `;
 
-const WordRow = props => (
-  <tr className={classNames('row',
-    { 'leading-row': props.index === 0 },
-    { 'common-row': props.index !== 0 },
-    { 'row-odd': props.index % 2 !== 0 })}
-  >
-    <td className="cell">
-      {props.spell}
-    </td>
-    <td className="cell">
-      {props.symbol}
-    </td>
-    <td className="cell" align="center">
-      {props.audio === '' ? null : (<Player {...props} />)}
-    </td>
-    <td className="cell cell-optional">
-      <ul style={{ margin: 0 }}>
-        {props.references.map((ref, index) => (
-          <li key={index}>
-            <a
-              href={ref.url}
-              className="cell-reference-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              key={index}
-            >
-              {ref.desc}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </td>
-  </tr>
-);
+
+const WordRow = (props) => {
+  const phonetics = props.symbol.split('|');
+  const symbol = phonetics[0];
+  const explanation = phonetics[1];
+  return (
+    <tr className={classNames('row',
+      { 'leading-row': props.index === 0 },
+      { 'common-row': props.index !== 0 },
+      { 'row-odd': props.index % 2 !== 0 })}
+    >
+      <td className="cell">
+        {props.spell}
+      </td>
+      <td className="cell">
+        {symbol}
+        {explanation && <PopOver exp={explanation} />}
+      </td>
+      <td className="cell" align="center">
+        {props.audio === '' ? null : (<Player {...props} />)}
+      </td>
+      <td className="cell cell-optional">
+        <ul style={{ margin: 0 }}>
+          {props.references.map((ref, index) => (
+            <li key={index}>
+              <a
+                href={ref.url}
+                className="cell-reference-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                key={index}
+              >
+                {ref.desc}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </td>
+    </tr>
+  );
+};
 
 const WordTable = (props) => {
-  const headers = ['Spelling', 'Phonetic Symbol', 'Pronunciation', 'References'];
+  const headers = ['Spelling', 'Symbol', 'Pronunciation', 'References'];
 
   const renderTable = (data) => {
     const dataAttrs = Object.keys(data);

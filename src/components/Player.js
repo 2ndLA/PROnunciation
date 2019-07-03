@@ -10,9 +10,6 @@ import { fade } from '@material-ui/core/styles';
 import { colors } from '@material-ui/core';
 
 const PlayerStyle = styled.div`
-.audio-player {
-  -webkit-tap-highlight-color: transparent;
-}
 .player:hover {
   cursor: pointer;
   color: ${fade(colors.cyan[900], 0.8)};
