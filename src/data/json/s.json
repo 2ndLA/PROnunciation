@@ -5,8 +5,19 @@
     "audio": "SaaS.mp3",
     "references": [
       {
-        "desc": "How to Pronouce",
+        "desc": "HowToPronounce",
         "url": "http://www.howtopronounce.cc/saas"
+      }
+    ]
+  },
+  "sandbox": {
+    "spell": "sandbox",
+    "symbol": "/'sæn(d)bɒks/",
+    "audio": "sandbox.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=sandbox"
       }
     ]
   },
@@ -49,7 +60,7 @@
     "audio": "Spring Boot.mp3",
     "references": [
       {
-        "desc": "YouDao",
+        "desc": "Youdao",
         "url": "http://dict.youdao.com/w/spring%20boot/#keyfrom=dict2.top"
       }
     ]
@@ -62,6 +73,17 @@
       {
         "desc": "Cambridge Dict",
         "url": "https://dictionary.cambridge.org/us/pronunciation/english/subversion"
+      }
+    ]
+  },
+  "svn": {
+    "spell": "SVN",
+    "symbol": "/ɛsvi'ɛn/",
+    "audio": "SVN.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=SVN"
       }
     ]
   },

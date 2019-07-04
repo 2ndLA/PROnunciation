@@ -1,4 +1,26 @@
 {
+  "o'reilly": {
+    "spell": "O'Reilly",
+    "symbol": "/əʊˈɹaɪli/",
+    "audio": "O'Reilly.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=O'Reilly"
+      }
+    ]
+  },
+  "overlay": {
+    "spell": "overlay",
+    "symbol": "/əʊvə'leɪ/",
+    "audio": "overlay.mp3",
+    "references": [
+      {
+        "desc": "Youdao",
+        "url": "http://dict.youdao.com/w/overlay/#keyfrom=dict2.top"
+      }
+    ]
+  },
   "owasp": {
     "spell": "OWASP",
     "symbol": "/'əʊwɑsp/",

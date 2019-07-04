@@ -20,5 +20,16 @@
         "url": "http://www.howtopronounce.cc/devops"
       }
     ]
+  },
+  "docker": {
+    "spell": "docker",
+    "symbol": "/'dɒkə/",
+    "audio": "docker.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=docker"
+      }
+    ]
   }
 }

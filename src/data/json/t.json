@@ -10,6 +10,17 @@
       }
     ]
   },
+  "terraform": {
+    "spell": "Terraform",
+    "symbol": "/'tɛrəfɔːm/",
+    "audio": "Terraform.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Terraform"
+      }
+    ]
+  },
   "travis": {
     "spell": "Travis",
     "symbol": "/ˈtɹævɪs/",
