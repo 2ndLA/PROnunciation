@@ -20,5 +20,16 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Rancher"
       }
     ]
+  },
+  "repository": {
+    "spell": "repository",
+    "symbol": "/rɪ'pɒzɪt(ə)rɪ/",
+    "audio": "repository.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=repository"
+      }
+    ]
   }
 }

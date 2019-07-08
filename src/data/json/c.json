@@ -31,5 +31,16 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Cucumber"
       }
     ]
+  },
+  "curl": {
+    "spell": "curl",
+    "symbol": "/kɜːl/",
+    "audio": "curl.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=curl"
+      }
+    ]
   }
 }

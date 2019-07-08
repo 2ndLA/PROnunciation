@@ -1,4 +1,26 @@
 {
+  "vagrant": {
+    "spell": "Vagrant",
+    "symbol": "/'veɪgr(ə)nt/",
+    "audio": "Vagrant.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Vagrant"
+      }
+    ]
+  },
+  "virtualenv": {
+    "spell": "virtualenv",
+    "symbol": "/ˈvɜ:tʃuəl iː en 'vi/",
+    "audio": "virtualenv.mp3",
+    "references": [
+      {
+        "desc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=N5vscPTWKOk"
+      }
+    ]
+  },
   "vlan": {
     "spell": "Vlan",
     "symbol": "/vi'læn/|Vee-Lan",
