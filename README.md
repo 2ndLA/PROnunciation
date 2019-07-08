@@ -5,33 +5,48 @@ Correct pronunciation makes you sound more professional and causes less misheari
 
 ### Workflow
 
-1. git clone project
-    ```shell
-    git clone git@github.com:itechub/PROnunciation.git
-    ```
-2. Install dependencies
-   ```shell
-   cd PROnunciation
-   yarn install
-   ```
-3. Run development server
-   ```shell
-   yarn start
-   ````
-4. Create a new branch to work on
-   ```shell
-   # adding new words
-   git checkout -b words/term001
-   # or developing new feature
-   git checkout -b feature/new-feature
-   # or bugfix
-   git checkout -b bugfix/fix-the-error
-   ```
-5. Work on your branch
-6. Make a new pull request
-7. After pull request is merged, checkout to branch `master`, then run `yarn run deploy` if you have the push permission on `gh-pages` branch
+#### git clone project
+```shell
+git clone git@github.com:itechub/PROnunciation.git
+```
 
-#### References
+#### Install dependencies
+```shell
+cd PROnunciation
+yarn install
+```
+
+#### Run development server
+```shell
+yarn start
+```
+
+#### Create a new branch to work on
+```shell
+# adding new words
+git checkout -b words/term001
+# or developing new feature
+git checkout -b feature/new-feature
+# or bugfix
+git checkout -b bugfix/fix-the-error
+```
+
+#### Work on your branch
+
+#### Open a new pull request
+
+#### Deploy
+After pull request is merged, checkout to branch `master`, then run `yarn run deploy` if you have the push permission on `gh-pages` branch
+
+#### Download audio automatically
+```
+cd ./helpers
+# Put words you want to add into `helpers/NewWords.txt`, one word per line
+# Use VPN to reach Google, then run
+python WordHelper.py
+```
+
+### References
 - [Awesome Pronunciation](https://guanpengchn.github.io/awesome-pronunciation/)
 - [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 - [Deploying a React App* to GitHub Pages](https://github.com/gitname/react-gh-pages)
