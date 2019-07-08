@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e6399428ce6632551655ed5ac74703b",
+    "revision": "44346fe5a2e94c86bc983c9c5cc9ebf4",
     "url": "/index.html"
   },
   {
-    "revision": "2e5bc844e1d43e7d078c",
+    "revision": "b4f3fa8d23a42ab3ef54",
     "url": "/static/css/main.6d477c5e.chunk.css"
   },
   {
-    "revision": "f7bddda73019f7fdaed9",
-    "url": "/static/js/2.1687d3eb.chunk.js"
+    "revision": "de67d19413440f4d0207",
+    "url": "/static/js/2.89d3c0c1.chunk.js"
   },
   {
-    "revision": "2e5bc844e1d43e7d078c",
-    "url": "/static/js/main.007bbbaf.chunk.js"
+    "revision": "b4f3fa8d23a42ab3ef54",
+    "url": "/static/js/main.c103bd8e.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ELK.322ac184.mp3"
   },
   {
+    "revision": "7708cd6df9fed102ac1ef01e86f3dda9",
+    "url": "/static/media/Fabric.7708cd6d.mp3"
+  },
+  {
     "revision": "632ddd207ddf3e7d0e9fa5a9e316428d",
     "url": "/static/media/FitNesse.632ddd20.mp3"
   },
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8891032da5e456effc01157f05d333e",
     "url": "/static/media/GNU.b8891032.mp3"
+  },
+  {
+    "revision": "10e1b5a1b387d38449daf3e2e10c7b4d",
+    "url": "/static/media/Gecko.10e1b5a1.mp3"
   },
   {
     "revision": "523349101c217efabfc4eeff088adfb2",
@@ -168,6 +176,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Nagios.6ed008fd.mp3"
   },
   {
+    "revision": "133504c042ddb3bc5f76cf2137498d72",
+    "url": "/static/media/O'Reilly.133504c0.mp3"
+  },
+  {
     "revision": "3f10ed96e293cf79c04ebabf479279b4",
     "url": "/static/media/OWASP.3f10ed96.mp3"
   },
@@ -200,6 +212,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Rancher.d261312a.mp3"
   },
   {
+    "revision": "8acf8eb402e2c07ca20ff813217b6513",
+    "url": "/static/media/SVN.8acf8eb4.mp3"
+  },
+  {
     "revision": "c32e7980b3bde1ce62c857478c14e85f",
     "url": "/static/media/SaaS.c32e7980.mp3"
   },
@@ -228,8 +244,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Tensorflow.d9fd1238.mp3"
   },
   {
+    "revision": "226a86aea778f12e55a42973364aa691",
+    "url": "/static/media/Terraform.226a86ae.mp3"
+  },
+  {
     "revision": "e20bccb03977104e9bbbb363f6c30a64",
     "url": "/static/media/Travis.e20bccb0.mp3"
+  },
+  {
+    "revision": "14fb453b3bcf3e8d1cc2184e420b03e1",
+    "url": "/static/media/Vagrant.14fb453b.mp3"
   },
   {
     "revision": "da423e6d726a61a4254758af1c0e2c15",
@@ -256,6 +280,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Zookeeper.6a206681.mp3"
   },
   {
+    "revision": "eb387b1ff5ab7d481d56031ef0b9145b",
+    "url": "/static/media/bash.eb387b1f.mp3"
+  },
+  {
+    "revision": "8e6390d81f8598a7d2d4792df9795e61",
+    "url": "/static/media/curl.8e6390d8.mp3"
+  },
+  {
+    "revision": "c80d7d28321233c66d8c4f64ba7f1571",
+    "url": "/static/media/docker.c80d7d28.mp3"
+  },
+  {
+    "revision": "34e157ad287b74471483d85b09bc9b0b",
+    "url": "/static/media/jQuery.34e157ad.mp3"
+  },
+  {
     "revision": "b731a3c43834eca814a398faf01d475b",
     "url": "/static/media/nginx.b731a3c4.mp3"
   },
@@ -264,8 +304,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nmon.7fffbe3f.mp3"
   },
   {
+    "revision": "4dbdea51cb2ebb5bad0747fc03444199",
+    "url": "/static/media/overlay.4dbdea51.mp3"
+  },
+  {
     "revision": "3144157817a537eedd71938632488c7a",
     "url": "/static/media/pwn.31441578.mp3"
+  },
+  {
+    "revision": "c3db090324e812990fa8cad490d8101d",
+    "url": "/static/media/repository.c3db0903.mp3"
+  },
+  {
+    "revision": "c3abde2fc32400fdb121934c2099a52e",
+    "url": "/static/media/sandbox.c3abde2f.mp3"
   },
   {
     "revision": "9dfd3bc54279eaa9f5c047c5ab6ad498",
@@ -274,5 +326,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bf0e0b183ec6fc84f4e723ed2552be54",
     "url": "/static/media/uWSGI.bf0e0b18.mp3"
+  },
+  {
+    "revision": "87e862b91bdaa54c17b2a438d1423859",
+    "url": "/static/media/virtualenv.87e862b9.mp3"
   }
 ]);
