@@ -8,7 +8,7 @@ import { colors } from '@material-ui/core';
 
 import Player from './Player';
 import PopOver from './PopOver';
-import { device, size } from '../config';
+import { device } from '../config';
 
 const classNames = require('classname');
 
@@ -41,25 +41,30 @@ const WordTableStyle = styled.div`
   }
 
   .common-row td {
-    padding: 5px 15px;
+    padding: 5px 25px;
   }
 
-  @media ${`(max-width: ${size.mobileM})`} {
-    .common-row td:first-child {
-      padding-left: 20px;
-    }
+  .common-row td:first-child {
+      padding-left: 30px;
   }
 
   @media ${device.mobileM} {
     .common-row td {
+      /* padding: 5px 5px; */
+    }
+  }
+
+  @media ${device.mobileL} {
+    .common-row td {
       padding: 5px 5px;
-      padding-left: 20px;
     }
   }
 
   @media ${device.tablet} {
     .common-row td {
-      padding: 5px 30px;
+      padding: 5px 40px;
+    }
+    .common-row td:first-child {
       padding-left: 40px;
     }
   }
