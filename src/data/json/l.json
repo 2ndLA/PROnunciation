@@ -1,14 +1,27 @@
 {
+  "lint": {
+    "spell": "lint",
+    "symbol": "/lɪnt/",
+    "audio": "lint.mp3",
+    "references": [
+      {
+        "desc": "Youdao",
+        "url": "http://dict.youdao.com/w/lint/#keyfrom=dict2.top"
+      }
+    ]
+  },
   "linux": {
     "spell": "Linux",
     "symbol": "/ˈlɪnəks/",
     "audio": "Linux.mp3",
     "references": [
-      {"desc": "Youtube",
-      "url": "https://www.youtube.com/watch?v=5IfHm6R5le0"},
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Linux"
+      },
+      {
+        "desc": "Youtube",
+        "url": "https://www.youtube.com/watch?v=5IfHm6R5le0"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "iaas": {
     "spell": "IaaS",
-    "symbol": "/aɪs/",
+    "symbol": "/aɪs/|Infrastructure as a Service",
     "audio": "IaaS.mp3",
     "references": [
       {
@@ -11,6 +11,17 @@
       {
         "desc": "Quora",
         "url": "https://www.quora.com/How-do-you-pronounce-IaaS"
+      }
+    ]
+  },
+  "idempotent": {
+    "spell": "idempotent",
+    "symbol": "/,aɪdem'pəʊt(ə)nt/",
+    "audio": "idempotent.mp3",
+    "references": [
+      {
+        "desc": "Dictionary.com",
+        "url": "https://www.dictionary.com/browse/idempotent?s=t"
       }
     ]
   },

@@ -1,4 +1,15 @@
 {
+  "caas": {
+    "spell": "CaaS",
+    "symbol": "/kɑs/|Container as a Service",
+    "audio": "CaaS.mp3",
+    "references": [
+      {
+        "desc": "HowToPronounce",
+        "url": "http://www.howtopronounce.cc/caas"
+      }
+    ]
+  },
   "calico": {
     "spell": "Calico",
     "symbol": "/ˈkælɪkoʊ/",
@@ -7,6 +18,17 @@
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Calico"
+      }
+    ]
+  },
+  "cassandra": {
+    "spell": "Cassandra",
+    "symbol": "/kə'sændrə/",
+    "audio": "Cassandra.mp3",
+    "references": [
+      {
+        "desc": "Youdao",
+        "url": "http://dict.youdao.com/w/eng/Cassandra/#keyfrom=dict2.index"
       }
     ]
   },

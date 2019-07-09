@@ -1,4 +1,15 @@
 {
+  "agent": {
+    "spell": "agent",
+    "symbol": "/'eɪdʒ(ə)nt/",
+    "audio": "agent.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=agent"
+      }
+    ]
+  },
   "airbnb": {
     "spell": "Airbnb",
     "symbol": "/'ɛəɹ'bi.ɛn'bi/",
@@ -37,6 +48,28 @@
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Ant"
+      }
+    ]
+  },
+  "apache": {
+    "spell": "Apache",
+    "symbol": "/əˈpætʃɪ/",
+    "audio": "Apache.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Apache"
+      }
+    ]
+  },
+  "azure": {
+    "spell": "Azure",
+    "symbol": "/'æʒə/",
+    "audio": "Azure.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Azure"
       }
     ]
   }

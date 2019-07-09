@@ -1,4 +1,26 @@
 {
+  "java": {
+    "spell": "Java",
+    "symbol": "/'dʒa:və/",
+    "audio": "Java.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Java"
+      }
+    ]
+  },
+  "javascript": {
+    "spell": "JavaScript",
+    "symbol": "/'dʒɑ:və,skrɪpt/",
+    "audio": "JavaScript.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=JavaScript"
+      }
+    ]
+  },
   "jenkins": {
     "spell": "Jenkins",
     "symbol": "/ˈdʒɛŋkɪnz/",

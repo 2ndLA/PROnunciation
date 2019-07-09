@@ -1,7 +1,7 @@
 {
   "saas": {
     "spell": "SaaS",
-    "symbol": "/sɑs/",
+    "symbol": "/sɑs/|Software as a Service",
     "audio": "SaaS.mp3",
     "references": [
       {
@@ -51,6 +51,17 @@
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Selenium"
+      }
+    ]
+  },
+  "seo": {
+    "spell": "SEO",
+    "symbol": "/,ɛs i 'o/",
+    "audio": "SEO.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=SEO"
       }
     ]
   },
