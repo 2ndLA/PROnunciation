@@ -43,6 +43,17 @@
       }
     ]
   },
+  "sed": {
+    "spell": "sed",
+    "symbol": "/sed/",
+    "audio": "sed.mp3",
+    "references": [
+      {
+        "desc": "HowToPronounce",
+        "url": "http://www.howtopronounce.cc/sed"
+      }
+    ]
+  },
   "selenium": {
     "spell": "Selenium",
     "symbol": "/sɪˈliː.ni.əm/",
@@ -56,7 +67,7 @@
   },
   "seo": {
     "spell": "SEO",
-    "symbol": "/,ɛs i 'o/",
+    "symbol": "ˌ/ɛs i ˈoʊ/|Search Engine Optimization",
     "audio": "SEO.mp3",
     "references": [
       {

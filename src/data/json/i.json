@@ -16,12 +16,12 @@
   },
   "idempotent": {
     "spell": "idempotent",
-    "symbol": "/,aɪdem'pəʊt(ə)nt/",
+    "symbol": "/aɪdəmˈpoʊtənt/",
     "audio": "idempotent.mp3",
     "references": [
       {
-        "desc": "Dictionary.com",
-        "url": "https://www.dictionary.com/browse/idempotent?s=t"
+        "desc": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/idempotent"
       }
     ]
   },

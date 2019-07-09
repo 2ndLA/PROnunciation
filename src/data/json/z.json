@@ -10,6 +10,17 @@
       }
     ]
   },
+  "zenodo": {
+    "spell": "Zenodo",
+    "symbol": "/zɜ'nəʊdəʊ/",
+    "audio": "Zenodo.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Zenodo"
+      }
+    ]
+  },
   "zookeeper": {
     "spell": "Zookeeper",
     "symbol": "/zu'kipɚ/",

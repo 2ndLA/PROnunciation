@@ -21,6 +21,17 @@
       }
     ]
   },
+  "raspberry": {
+    "spell": "Raspberry",
+    "symbol": "/'rɑːzb(ə)rɪ/",
+    "audio": "Raspberry.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Raspberry"
+      }
+    ]
+  },
   "repository": {
     "spell": "repository",
     "symbol": "/rɪ'pɒzɪt(ə)rɪ/",
@@ -29,6 +40,17 @@
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=repository"
+      }
+    ]
+  },
+  "rest": {
+    "spell": "REST",
+    "symbol": "/rest/",
+    "audio": "REST.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=REST"
       }
     ]
   }
