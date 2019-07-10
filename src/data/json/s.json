@@ -1,7 +1,7 @@
 {
   "saas": {
     "spell": "SaaS",
-    "symbol": "/sɑs/",
+    "symbol": "/sɑs/|Software as a Service",
     "audio": "SaaS.mp3",
     "references": [
       {
@@ -43,6 +43,17 @@
       }
     ]
   },
+  "sed": {
+    "spell": "sed",
+    "symbol": "/sed/",
+    "audio": "sed.mp3",
+    "references": [
+      {
+        "desc": "HowToPronounce",
+        "url": "http://www.howtopronounce.cc/sed"
+      }
+    ]
+  },
   "selenium": {
     "spell": "Selenium",
     "symbol": "/sɪˈliː.ni.əm/",
@@ -51,6 +62,17 @@
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Selenium"
+      }
+    ]
+  },
+  "seo": {
+    "spell": "SEO",
+    "symbol": "ˌ/ɛs i ˈoʊ/|Search Engine Optimization",
+    "audio": "SEO.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=SEO"
       }
     ]
   },

@@ -31,5 +31,20 @@
         "url": "http://www.howtopronounce.cc/vlan"
       }
     ]
+  },
+  "vultr": {
+    "spell": "Vultr",
+    "symbol": "/'vʌltʃə/",
+    "audio": "Vultr.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Vultr"
+      },
+      {
+        "desc": "Vultr.com",
+        "url": "https://discuss.vultr.com/discussion/1234/how-to-pronounce-vultr"
+      }
+    ]
   }
 }
