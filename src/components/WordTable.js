@@ -5,6 +5,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { fade } from '@material-ui/core/styles';
 import { colors } from '@material-ui/core';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
+
 
 import Player from './Player';
 import PopOver from './PopOver';
@@ -109,15 +112,45 @@ const WordTableStyle = styled.div`
   }
 `;
 
+const SubHeaderRow = props => (
+  <tr
+    className={classNames('row',
+      'leading-row')}
+    onClick={() => props.onHeaderClick(props.letter)}
+  >
+    <td className="cell">
+      {props.letter}
+    </td>
+    <td
+      className="cell"
+      colSpan="2"
+      align="center"
+    >
+      {props.expand ? null : (
+        <span>
+          {' '}
+          {props.count}
+          {' '}
+          words folded
+          {' '}
+        </span>
+      )}
+    </td>
+    <td
+      className="cell cell-optional"
+      align="right"
+    >
+      {props.expand ? <ArrowDropUpIcon /> : <ArrowDropDownIcon /> }
+    </td>
+  </tr>
+);
 
 const WordRow = (props) => {
   const phonetics = props.symbol.split('|');
   const symbol = phonetics[0];
   const explanation = phonetics[1];
   return (
-    <tr className={classNames('row',
-      { 'leading-row': props.index === 0 },
-      { 'common-row': props.index !== 0 },
+    <tr className={classNames('row', 'common-row',
       { 'row-odd': props.index % 2 !== 0 })}
     >
       <td className="cell">
@@ -155,21 +188,23 @@ const WordTable = (props) => {
   const headers = ['Spelling', 'Symbol', 'Pronunciation', 'References'];
 
   const renderTable = (data) => {
-    const dataAttrs = Object.keys(data);
+    const dataAttrs = Object.keys(data.words);
     if (dataAttrs.length === 0) { return []; }
     // Create a leading row that only contains a upper case letter
-    const table = { ...data };
-    const letter = dataAttrs[0][0].toUpperCase();
-    table[letter] = {
-      spell: letter,
-      audio: '',
-      symbol: '',
-      references: [],
-    };
-    return Object.values(table).sort(
-      (a, b) => (a.spell.toLowerCase() < b.spell.toLowerCase() ? -1 : 1),
-    ).map(
-      (row, index) => (<WordRow {...row} key={row.spell} index={index} />),
+    const table = { ...data.words };
+    let wordComponents = null;
+    if (data.header.expand) {
+      wordComponents = Object.values(table).sort(
+        (a, b) => (a.spell.toLowerCase() < b.spell.toLowerCase() ? -1 : 1),
+      ).map(
+        (row, index) => (<WordRow {...row} key={row.spell} index={index} />),
+      );
+    }
+    return (
+      <React.Fragment key={data.header.letter}>
+        <SubHeaderRow onHeaderClick={props.onHeaderClick} count={Object.keys(data.words).length} {...data.header} />
+        { wordComponents }
+      </React.Fragment>
     );
   };
 
