@@ -16,7 +16,6 @@ const styles = theme => ({
       backgroundColor: fade(theme.palette.common.black, 0.1),
     },
     width: '100%',
-    marginLeft: theme.spacing(3),
     [theme.breakpoints.up('sm')]: {
       width: 'auto',
     },
@@ -25,7 +24,7 @@ const styles = theme => ({
     },
   },
   searchIcon: {
-    width: theme.spacing(7),
+    width: theme.spacing(6),
     height: '100%',
     position: 'absolute',
     pointerEvents: 'none',
