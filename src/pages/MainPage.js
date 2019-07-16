@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
-import Fab from '@material-ui/core/Fab';
+import ArrowDropDownIcon from '@material-ui/icons/UnfoldLess';
+import ArrowLeftIcon from '@material-ui/icons/UnfoldMore';
+import { colors, Fab } from '@material-ui/core';
+
 import { device, size } from '../config';
 import { WordTable, Header } from '../components';
-
 import { dictionary } from '../data';
 
 const Wrapper = styled.div`
@@ -16,14 +16,16 @@ const Wrapper = styled.div`
 
   #words-toggle {
     position: fixed;
-    bottom: 0.8rem;
-    right: 0.5rem;
-    background-color: #00838f;
-    opacity:0.8;
+    bottom: 0.7rem;
+    right: 0.6rem;
+    background-color: white;
+    color: ${colors.cyan[900]};
+    opacity: 1;
     &:hover{
-      opacity: 1;
+      opacity: 0.7;
     }
   }
+
   @media ${device.mobileM} {
     padding: 1em 2em;
   }
@@ -110,7 +112,6 @@ export default class MainPage extends Component {
             <WordTable dictionary={this.state.dictionary} onHeaderClick={this.onHeaderClick} />
           </div>
           <Fab
-            color="primary"
             size="medium"
             id="words-toggle"
             onClick={this.onToggle}

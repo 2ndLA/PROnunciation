@@ -6,8 +6,7 @@ import styled from 'styled-components';
 import { fade } from '@material-ui/core/styles';
 import { colors } from '@material-ui/core';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
-
+import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 
 import Player from './Player';
 import PopOver from './PopOver';
@@ -43,18 +42,16 @@ const WordTableStyle = styled.div`
     color: ${fade(colors.blueGrey[800], 0.7)};
   }
 
+  .leading-row:hover {
+    cursor: pointer;
+  }
+
   .common-row td {
     padding: 5px 25px;
   }
 
   .common-row td:first-child {
       padding-left: 30px;
-  }
-
-  @media ${device.mobileM} {
-    .common-row td {
-      /* padding: 5px 5px; */
-    }
   }
 
   @media ${device.mobileL} {
@@ -82,13 +79,14 @@ const WordTableStyle = styled.div`
     padding: 12px;
   }
 
-  .cell-optional{
+  .cell-optional {
     display: none;
   }
 
   .cell a {
     color: #6890b5;
   }
+
   .cell .cell-reference-link {
     opacity: 0.8;
     color: ${fade(colors.blueGrey[900], 0.7)};;
@@ -101,49 +99,59 @@ const WordTableStyle = styled.div`
   }
 
   @media ${device.mobileL} {
-    .cell-optional{
+    .cell-optional {
       display: table-cell;
     }
 
-    .cell-optional a{
+    .cell-optional a {
       display: block;
       text-decoration-line: none;
     }
+
+    .leading-row .toggle-icon {
+      display: none;
+    }
+  }
+
+  .sub-header-badge {
+    border-radius: 30px;
+    background-color: ${fade(colors.cyan[900], 0.7)};
+    display: inline-block;
+    line-height: 25px;
+    min-width: 26px;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    padding-top: 1px;
+  }
+
+  .sub-header-badge > span {
+    padding: 0 8px;
   }
 `;
 
-const SubHeaderRow = props => (
-  <tr
-    className={classNames('row',
-      'leading-row')}
-    onClick={() => props.onHeaderClick(props.letter)}
-  >
-    <td className="cell">
-      {props.letter}
-    </td>
-    <td
-      className="cell"
-      colSpan="2"
-      align="center"
+const SubHeaderRow = (props) => {
+  const ToggleIcon = props.expand ? <ArrowDropDownIcon /> : <ArrowLeftIcon />;
+  return (
+    <tr
+      className={classNames('row', 'leading-row')}
+      onClick={() => props.onHeaderClick(props.letter)}
     >
-      {props.expand ? null : (
-        <span>
-          {' '}
-          {props.count}
-          {' '}
-          words folded
-          {' '}
+      <td className="cell">
+        <span className={classNames('sub-header-badge')}>
+          <span>{props.letter}</span>
         </span>
-      )}
-    </td>
-    <td
-      className="cell cell-optional"
-      align="right"
-    >
-      {props.expand ? <ArrowDropUpIcon /> : <ArrowDropDownIcon /> }
-    </td>
-  </tr>
-);
+      </td>
+      <td className="cell" />
+      <td className="cell" align="right">
+        <span className="toggle-icon">{ToggleIcon}</span>
+      </td>
+      <td className="cell cell-optional" align="right">
+        {ToggleIcon}
+      </td>
+    </tr>
+  );
+};
 
 const WordRow = (props) => {
   const phonetics = props.symbol.split('|');
@@ -187,23 +195,22 @@ const WordRow = (props) => {
 const WordTable = (props) => {
   const headers = ['Spelling', 'Symbol', 'Pronunciation', 'References'];
 
-  const renderTable = (data) => {
-    const dataAttrs = Object.keys(data.words);
-    if (dataAttrs.length === 0) { return []; }
-    // Create a leading row that only contains a upper case letter
-    const table = { ...data.words };
+  const renderLetter = (data) => {
+    const words = { ...data.words };
     let wordComponents = null;
     if (data.header.expand) {
-      wordComponents = Object.values(table).sort(
-        (a, b) => (a.spell.toLowerCase() < b.spell.toLowerCase() ? -1 : 1),
-      ).map(
+      wordComponents = Object.values(words).map(
         (row, index) => (<WordRow {...row} key={row.spell} index={index} />),
       );
     }
     return (
       <React.Fragment key={data.header.letter}>
-        <SubHeaderRow onHeaderClick={props.onHeaderClick} count={Object.keys(data.words).length} {...data.header} />
-        { wordComponents }
+        <SubHeaderRow
+          onHeaderClick={props.onHeaderClick}
+          count={Object.keys(data.words).length}
+          {...data.header}
+        />
+        {wordComponents}
       </React.Fragment>
     );
   };
@@ -220,7 +227,7 @@ const WordTable = (props) => {
       ))}
     </tr>
   );
-  const tbodyMarkup = props.dictionary.map(renderTable);
+  const tbodyMarkup = props.dictionary.map(renderLetter);
 
   return (
     <WordTableStyle>
