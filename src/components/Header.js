@@ -45,7 +45,7 @@ const styles = theme => ({
     display: 'inline',
     verticalAlign: 'middle',
     paddingBottom: '0.2em',
-    marginRight: 10,
+    marginRight: 3,
     width: '24px',
     [theme.breakpoints.down('xs')]: {
       width: '20px',
@@ -54,8 +54,9 @@ const styles = theme => ({
   org: {
     display: 'inline-block',
     borderLeft: `1px solid ${theme.palette.grey.A100}`,
-    marginLeft: 24,
-    paddingLeft: 22,
+    marginLeft: theme.spacing(2.5),
+    marginRight: theme.spacing(3.6),
+    paddingLeft: theme.spacing(2),
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
@@ -67,6 +68,7 @@ const styles = theme => ({
       display: 'none',
     },
     padding: theme.spacing(0.25, 1, 0, 1),
+    marginLeft: theme.spacing(0.5),
   },
   pronLabel: {
     color: 'white',
@@ -91,6 +93,7 @@ const styles = theme => ({
   },
   iconButton: {
     float: 'right',
+    padding: theme.spacing(1, 0),
   },
   tabContainer: {
     marginLeft: 'auto',
@@ -197,7 +200,12 @@ class Header extends Component {
                 onReset={this.props.onReset}
               />
               <div className={classes.iconContainer}>
-                <IconButton onClick={this.mobileMenuOpen} className={classes.iconButton} color="inherit" aria-label="Menu">
+                <IconButton
+                  onClick={this.mobileMenuOpen}
+                  className={classes.iconButton}
+                  color="inherit"
+                  aria-label="Menu"
+                >
                   <MenuIcon />
                 </IconButton>
               </div>
