@@ -1,5 +1,6 @@
 # PROnunciation
-![updated](https://img.shields.io/github/last-commit/itechub/pronunciation/master.svg?color=%23c16927&label=updated)
+![License-MIT](https://img.shields.io/github/license/itechub/PROnunciation.svg)
+![Updated](https://img.shields.io/github/last-commit/itechub/pronunciation/master.svg?color=%23c16927&label=updated)
 
 Correct pronunciation makes you sound more professional and causes less mishearing.
 
