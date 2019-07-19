@@ -21,4 +21,12 @@ const device = {
   desktopL: `(min-width: ${size.desktop})`,
 };
 
-export { device, size };
+// Google Analytics
+const GA_TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID;
+const GA_DEBUG = JSON.parse(process.env.REACT_APP_GA_DEBUG || 'false');
+
+const DOMAIN = 'pron.highlight.ink';
+
+export {
+  DOMAIN, GA_DEBUG, GA_TRACKING_ID, device, size,
+};

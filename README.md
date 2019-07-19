@@ -18,6 +18,7 @@ yarn install
 
 #### Run development server
 ```shell
+mv .env_template .env
 yarn start
 ```
 
