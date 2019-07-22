@@ -16,12 +16,12 @@
     "audio": "Airbnb.mp3",
     "references": [
       {
-        "desc": "Quora",
-        "url": "https://www.quora.com/How-do-you-pronounce-Airbnb"
-      },
-      {
         "desc": "HowToPronounce",
         "url": "http://www.howtopronounce.cc/airbnb"
+      },
+      {
+        "desc": "Quora",
+        "url": "https://www.quora.com/How-do-you-pronounce-Airbnb"
       }
     ]
   },
@@ -31,12 +31,12 @@
     "audio": "Ansible.mp3",
     "references": [
       {
-        "desc": "Wiktionary",
-        "url": "https://en.wiktionary.org/wiki/ansible"
-      },
-      {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Ansible"
+      },
+      {
+        "desc": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/ansible"
       }
     ]
   },
@@ -59,6 +59,39 @@
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Apache"
+      }
+    ]
+  },
+  "arch": {
+    "spell": "Arch",
+    "symbol": "/ɑːtʃ/",
+    "audio": "Arch.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Arch"
+      }
+    ]
+  },
+  "async": {
+    "spell": "async",
+    "symbol": "/'eɪsɪŋk/",
+    "audio": "async.mp3",
+    "references": [
+      {
+        "desc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=UUAAeCtNbqE"
+      }
+    ]
+  },
+  "await": {
+    "spell": "await",
+    "symbol": "/ə'weɪt/",
+    "audio": "await.mp3",
+    "references": [
+      {
+        "desc": "Youdao",
+        "url": "http://dict.youdao.com/w/await/#keyfrom=dict2.top"
       }
     ]
   },

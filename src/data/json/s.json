@@ -76,6 +76,17 @@
       }
     ]
   },
+  "spinnaker": {
+    "spell": "Spinnaker",
+    "symbol": "/'spɪnəkə/",
+    "audio": "Spinnaker.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Spinnaker"
+      }
+    ]
+  },
   "spring boot": {
     "spell": "Spring Boot",
     "symbol": "/sprɪŋˈbut/",
