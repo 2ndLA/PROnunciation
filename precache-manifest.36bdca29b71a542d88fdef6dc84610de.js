@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e782fb10c65b7588744daa2611fc3166",
+    "revision": "e3ff963f55835848e0cb9d0b903243bf",
     "url": "/index.html"
   },
   {
-    "revision": "64ad8dd7c6c980bc7f69",
+    "revision": "367e3fa98739f9c11370",
     "url": "/static/css/main.6d477c5e.chunk.css"
   },
   {
-    "revision": "b4fb6c13100f203d42c4",
-    "url": "/static/js/2.751701b2.chunk.js"
+    "revision": "5a5de354bead382fd8de",
+    "url": "/static/js/2.6f05e8cd.chunk.js"
   },
   {
-    "revision": "64ad8dd7c6c980bc7f69",
-    "url": "/static/js/main.e6d15527.chunk.js"
+    "revision": "367e3fa98739f9c11370",
+    "url": "/static/js/main.11273a44.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b326a3ed8676e2709c74d404a6100e43",
     "url": "/static/media/Apache.b326a3ed.mp3"
+  },
+  {
+    "revision": "d15b24d1732a916424f957d569854329",
+    "url": "/static/media/Arch.d15b24d1.mp3"
   },
   {
     "revision": "91dc870e5aafd0adcd41c781d2588eae",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f28fd6b785b7e7125f59fd9b240f312b",
     "url": "/static/media/Cassandra.f28fd6b7.mp3"
+  },
+  {
+    "revision": "b68a860741bdefc6f1c577979888215b",
+    "url": "/static/media/CentOS.b68a8607.mp3"
   },
   {
     "revision": "751a386df1a24b0b84c318e35df73892",
@@ -148,6 +156,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/JUnit.2e16abde.mp3"
   },
   {
+    "revision": "e4311c7560e7216eae1d90212d898413",
+    "url": "/static/media/JWT.e4311c75.mp3"
+  },
+  {
     "revision": "afcd3249b5119a6de93fdd3cff174641",
     "url": "/static/media/Java.afcd3249.mp3"
   },
@@ -214,6 +226,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f10ed96e293cf79c04ebabf479279b4",
     "url": "/static/media/OWASP.3f10ed96.mp3"
+  },
+  {
+    "revision": "3d7c8435ec21b1377b739b913364f348",
+    "url": "/static/media/PNG.3d7c8435.mp3"
   },
   {
     "revision": "41527127a04d332afce68892ec892506",
@@ -284,6 +300,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Selenium.60f77276.mp3"
   },
   {
+    "revision": "25ab4425a5e817de0054cb0632e3f931",
+    "url": "/static/media/Spinnaker.25ab4425.mp3"
+  },
+  {
     "revision": "922368757abc9c4e6abf9f2244a2ff9a",
     "url": "/static/media/Spring Boot.92236875.mp3"
   },
@@ -352,8 +372,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/agent.e8470263.mp3"
   },
   {
+    "revision": "348f8b62e14584e6fbee71e2d555802e",
+    "url": "/static/media/async.348f8b62.mp3"
+  },
+  {
+    "revision": "aeb49ad27ec26450462b8ec6fd6108bc",
+    "url": "/static/media/await.aeb49ad2.mp3"
+  },
+  {
     "revision": "eb387b1ff5ab7d481d56031ef0b9145b",
     "url": "/static/media/bash.eb387b1f.mp3"
+  },
+  {
+    "revision": "78fad1fd97434d55c54525902a7b1aea",
+    "url": "/static/media/cache.78fad1fd.mp3"
+  },
+  {
+    "revision": "16ea98a1028ac8063a23d6ae86074a5f",
+    "url": "/static/media/concurrent.16ea98a1.mp3"
   },
   {
     "revision": "8e6390d81f8598a7d2d4792df9795e61",
@@ -362,6 +398,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c80d7d28321233c66d8c4f64ba7f1571",
     "url": "/static/media/docker.c80d7d28.mp3"
+  },
+  {
+    "revision": "e437d0cba7e383c31e4f70739a38da1f",
+    "url": "/static/media/dump.e437d0cb.mp3"
   },
   {
     "revision": "1463ed8c5d3a0dae8f8ff53b503c8fb5",
