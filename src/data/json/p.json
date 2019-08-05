@@ -32,6 +32,17 @@
       }
     ]
   },
+  "png": {
+    "spell": "PNG",
+    "symbol": "/pɪŋ/",
+    "audio": "PNG.mp3",
+    "references": [
+      {
+        "desc": "Twitter",
+        "url": "https://twitter.com/nixcraft/status/1117514451454971904"
+      }
+    ]
+  },
   "postgresql": {
     "spell": "PostgreSQL",
     "symbol": "/ˈpoʊstɡrɛs ˌkjuː ˈɛl/|post-grehs-Q-L",

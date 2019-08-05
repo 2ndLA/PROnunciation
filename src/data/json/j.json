@@ -83,5 +83,16 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Jupyter"
       }
     ]
+  },
+  "jwt": {
+    "spell": "JWT",
+    "symbol": "/dʒɒt/",
+    "audio": "JWT.mp3",
+    "references": [
+      {
+        "desc": "RFC 7519",
+        "url": "https://www.rfc-editor.org/rfc/rfc7519.txt"
+      }
+    ]
   }
 }
