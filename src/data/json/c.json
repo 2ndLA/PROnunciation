@@ -45,16 +45,12 @@
   },
   "centos": {
     "spell": "CentOS",
-    "symbol": "/ˈsɛntɒs/",
+    "symbol": "/ˈsɛntəʊs/",
     "audio": "CentOS.mp3",
     "references": [
       {
-        "desc": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/CentOS"
-      },
-      {
-        "desc": "YouTube",
-        "url": "https://www.youtube.com/watch?v=f6J8dP2dKRk"
+        "desc": "centos.org",
+        "url": "https://www.centos.org/forums/viewtopic.php?t=693"
       }
     ]
   },

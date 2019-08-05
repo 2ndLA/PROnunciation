@@ -34,11 +34,22 @@ git checkout -b bugfix/fix-the-error
 ```
 
 #### Work on your branch
+```
+# do something
+```
 
-#### Open a new pull request
+#### Open a pull request
+[GitHub Guides](https://guides.github.com/): [Making a Pull Request](https://guides.github.com/activities/forking/#making-a-pull-request)
 
 #### Deploy
+
 After pull request is merged, checkout to branch `master`, then run `yarn run deploy` if you have the push permission on `gh-pages` branch
+
+```shell
+# Optionally, fill your Google Analytics Tracking ID in .env 
+yarn run deploy
+```
+
 
 #### Download audio automatically
 ```
