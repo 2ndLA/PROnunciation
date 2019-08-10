@@ -98,6 +98,21 @@
       }
     ]
   },
+  "sql": {
+    "spell": "SQL",
+    "symbol": "/ˈsiːkwəl/|Also: /ˌɛsˌkjuːˈɛl/",
+    "audio": "SQL.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=SQL"
+      },
+      {
+        "desc": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SQL"
+      }
+    ]
+  },
   "subversion": {
     "spell": "Subversion",
     "symbol": "/səbˈvɜrʒ(ə)n/",

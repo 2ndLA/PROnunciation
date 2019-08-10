@@ -10,6 +10,17 @@
       }
     ]
   },
+  "aggregate": {
+    "spell": "aggregate",
+    "symbol": "/ˈægrɪgeɪt/",
+    "audio": "aggregate.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=aggregate"
+      }
+    ]
+  },
   "airbnb": {
     "spell": "Airbnb",
     "symbol": "/'ɛəɹ'bi.ɛn'bi/",
@@ -22,6 +33,28 @@
       {
         "desc": "Quora",
         "url": "https://www.quora.com/How-do-you-pronounce-Airbnb"
+      }
+    ]
+  },
+  "alias": {
+    "spell": "alias",
+    "symbol": "/ˈeɪliəs/",
+    "audio": "alias.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=alias"
+      }
+    ]
+  },
+  "annotate": {
+    "spell": "annotate",
+    "symbol": "/'ænəteɪt/",
+    "audio": "annotate.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=annotate"
       }
     ]
   },

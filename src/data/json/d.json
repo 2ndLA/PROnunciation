@@ -21,6 +21,17 @@
       }
     ]
   },
+  "django": {
+    "spell": "django",
+    "symbol": "/ˈdʒæŋɡo/",
+    "audio": "django.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=django"
+      }
+    ]
+  },
   "docker": {
     "spell": "docker",
     "symbol": "/'dɒkə/",
