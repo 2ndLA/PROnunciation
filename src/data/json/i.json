@@ -25,6 +25,17 @@
       }
     ]
   },
+  "innodb": {
+    "spell": "InnoDB",
+    "symbol": "/ɪnəʊ diː bi:/",
+    "audio": "InnoDB.mp3",
+    "references": [
+      {
+        "desc": "HowToPronounce",
+        "url": "http://www.howtopronounce.cc/innodb"
+      }
+    ]
+  },
   "itil": {
     "spell": "ITIL",
     "symbol": "/'aɪtɪl/",

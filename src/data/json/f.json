@@ -10,6 +10,17 @@
       }
     ]
   },
+  "fedora": {
+    "spell": "Fedora",
+    "symbol": "/fɪ'dɔːrə/",
+    "audio": "Fedora.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Fedora"
+      }
+    ]
+  },
   "fitnesse": {
     "spell": "FitNesse",
     "symbol": "/ˈfɪtnɪs/",

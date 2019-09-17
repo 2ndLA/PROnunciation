@@ -10,6 +10,21 @@
       }
     ]
   },
+  "opensuse": {
+    "spell": "openSUSE",
+    "symbol": "/əʊp(ə)nˈsuːsə/",
+    "audio": "openSUSE.mp3",
+    "references": [
+      {
+        "desc": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SUSE_Linux#Origins"
+      },
+      {
+        "desc": "Youtube",
+        "url": "https://www.youtube.com/watch?v=9oonm2GCCMo&t=5s"
+      }
+    ]
+  },
   "overlay": {
     "spell": "overlay",
     "symbol": "/əʊvə'leɪ/",
