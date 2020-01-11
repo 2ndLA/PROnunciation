@@ -20,5 +20,20 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Quicksort"
       }
     ]
+  },
+  "quora": {
+    "spell": "Quora",
+    "symbol": "/ˈkwɔːrə/",
+    "audio": "Quora.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Quora"
+      },
+      {
+        "desc": "Quora",
+        "url": "https://www.quora.com/How-do-you-pronounce-Quora"
+      }
+    ]
   }
 }

@@ -76,6 +76,17 @@
       }
     ]
   },
+  "grep": {
+    "spell": "grep",
+    "symbol": "/grep/|g/re/p",
+    "audio": "grep.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=grep"
+      }
+    ]
+  },
   "gunicorn": {
     "spell": "Gunicorn",
     "symbol": "/griːn 'juːnɪkɔːn/|Green Unicorn",

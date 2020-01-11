@@ -10,6 +10,17 @@
       }
     ]
   },
+  "pattern": {
+    "spell": "pattern",
+    "symbol": "/ˈpætərn/",
+    "audio": "pattern.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=pattern"
+      }
+    ]
+  },
   "phantomjs": {
     "spell": "PhantomJS",
     "symbol": "/'fæntəm dʒeɪ ɛs/",

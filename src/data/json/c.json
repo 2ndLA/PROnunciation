@@ -73,6 +73,17 @@
       }
     ]
   },
+  "chrome": {
+    "spell": "Chrome",
+    "symbol": "/kroʊm/",
+    "audio": "Chrome.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Chrome"
+      }
+    ]
+  },
   "concurrent": {
     "spell": "concurrent",
     "symbol": "/kən'kʌr(ə)nt/",
