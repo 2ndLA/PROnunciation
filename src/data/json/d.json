@@ -21,6 +21,32 @@
       }
     ]
   },
+  "dijkstra": {
+    "spell": "Dijkstra",
+    "symbol": "/ˈdɑɪkstɹə/|DYKE-struh",
+    "audio": "Dijkstra.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Dijkstra"
+      },
+      {
+        "desc": "Stack Exchange",
+        "url": "https://english.stackexchange.com/questions/72461/pronunication-of-dijkstra"
+      }
+    ]
+  },
+  "dind": {
+    "spell": "DinD",
+    "symbol": "/dɪŋd/|Docker inside Docker",
+    "audio": "dind.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=dind"
+      }
+    ]
+  },
   "django": {
     "spell": "django",
     "symbol": "/ˈdʒæŋɡo/",

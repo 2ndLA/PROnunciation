@@ -128,6 +128,21 @@
       }
     ]
   },
+  "axios": {
+    "spell": "axios",
+    "symbol": "/,æk'si:əus/|acks--ee--oh-ss",
+    "audio": "axios.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=axios"
+      },
+      {
+        "desc": "Github Issue",
+        "url": "https://github.com/axios/axios/issues/802"
+      }
+    ]
+  },
   "azure": {
     "spell": "Azure",
     "symbol": "/'æʒə/",

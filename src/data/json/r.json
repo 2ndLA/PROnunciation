@@ -53,5 +53,16 @@
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=REST"
       }
     ]
+  },
+  "root": {
+    "spell": "root",
+    "symbol": "/ruːt/",
+    "audio": "root.mp3",
+    "references": [
+      {
+        "desc": "Google Translate",
+        "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=root"
+      }
+    ]
   }
 }

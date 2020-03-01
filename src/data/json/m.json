@@ -47,6 +47,17 @@
       }
     ]
   },
+  "myisam": {
+    "spell": "MyISAM",
+    "symbol": "/maɪˈaɪːsæm/|My, I, Sam",
+    "audio": "MyISAM.mp3",
+    "references": [
+      {
+        "desc": "Youtube",
+        "url": "https://youtu.be/NWc9GWSSfkk?t=1430"
+      }
+    ]
+  },
   "mysql": {
     "spell": "MySQL",
     "symbol": "/maɪˌɛskjuː'ɛl/",
