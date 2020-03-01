@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4c2be4859cdfba30e1a0b6d0650ce0e",
+    "revision": "ac2e33552208cacebab4007d735c1207",
     "url": "/index.html"
   },
   {
-    "revision": "ca38979bbdf4a58c7f1a",
+    "revision": "1a47bbab9aa0b8610e0a",
     "url": "/static/css/main.6d477c5e.chunk.css"
   },
   {
-    "revision": "dce5771adb8387d17d57",
-    "url": "/static/js/2.d909d5df.chunk.js"
+    "revision": "0e1e658761802ee57194",
+    "url": "/static/js/2.18502467.chunk.js"
   },
   {
-    "revision": "ca38979bbdf4a58c7f1a",
-    "url": "/static/js/main.8d21649a.chunk.js"
+    "revision": "1a47bbab9aa0b8610e0a",
+    "url": "/static/js/main.85e890c4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Chef.751a386d.mp3"
   },
   {
+    "revision": "49d80e3cba3c8ffd509ef39bcf7367b6",
+    "url": "/static/media/Chrome.49d80e3c.mp3"
+  },
+  {
     "revision": "605c66706df735b8f64800950834ee25",
     "url": "/static/media/Cucumber.605c6670.mp3"
   },
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d93ba7d5d8dd8cc0c959c44a2809c2b",
     "url": "/static/media/DevOps.3d93ba7d.mp3"
+  },
+  {
+    "revision": "f6cbc2870731dd9a9d3d05a28aa3558c",
+    "url": "/static/media/Dijkstra.f6cbc287.mp3"
   },
   {
     "revision": "322ac1846a519c653f8b3f5dfd850114",
@@ -220,6 +228,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Metasploit.d2f56ca4.mp3"
   },
   {
+    "revision": "4a29a14025474a8ffe8f8007241c6f9c",
+    "url": "/static/media/MyISAM.4a29a140.mp3"
+  },
+  {
     "revision": "9dc60e847186cd01cae4ef6e9ba87bd3",
     "url": "/static/media/MySQL.9dc60e84.mp3"
   },
@@ -270,6 +282,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2f7b6c24f716dde87cdf6cd196645da5",
     "url": "/static/media/Quicksort.2f7b6c24.mp3"
+  },
+  {
+    "revision": "0988fa1ae9037641dd730cdc9bcef700",
+    "url": "/static/media/Quora.0988fa1a.mp3"
   },
   {
     "revision": "37ac19b96f92c8a7fd4a6fa7ec1e723d",
@@ -404,6 +420,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/await.aeb49ad2.mp3"
   },
   {
+    "revision": "00d47863925547ca075a1dbe5ceffb39",
+    "url": "/static/media/axios.00d47863.mp3"
+  },
+  {
     "revision": "eb387b1ff5ab7d481d56031ef0b9145b",
     "url": "/static/media/bash.eb387b1f.mp3"
   },
@@ -424,6 +444,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/curl.8e6390d8.mp3"
   },
   {
+    "revision": "46619c51cda0a3254bf5f26aa0e094d9",
+    "url": "/static/media/dind.46619c51.mp3"
+  },
+  {
     "revision": "a96c78c28f1659aea0e9f6502ddcfad7",
     "url": "/static/media/django.a96c78c2.mp3"
   },
@@ -434,6 +458,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e437d0cba7e383c31e4f70739a38da1f",
     "url": "/static/media/dump.e437d0cb.mp3"
+  },
+  {
+    "revision": "fbb56665bd2bd3e3acab2cf9b3f85ba2",
+    "url": "/static/media/grep.fbb56665.mp3"
   },
   {
     "revision": "1463ed8c5d3a0dae8f8ff53b503c8fb5",
@@ -456,12 +484,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nmon.7fffbe3f.mp3"
   },
   {
+    "revision": "9b6012d07a72dc7bbfc0aa8b6960cbe4",
+    "url": "/static/media/object.9b6012d0.mp3"
+  },
+  {
     "revision": "3f1732a78c8aa1c63877e51a13b716c7",
     "url": "/static/media/openSUSE.3f1732a7.mp3"
   },
   {
     "revision": "4dbdea51cb2ebb5bad0747fc03444199",
     "url": "/static/media/overlay.4dbdea51.mp3"
+  },
+  {
+    "revision": "6e6b87767fd2fc5ebf5110dc3b6019cd",
+    "url": "/static/media/pattern.6e6b8776.mp3"
   },
   {
     "revision": "3144157817a537eedd71938632488c7a",
@@ -474,6 +510,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c3db090324e812990fa8cad490d8101d",
     "url": "/static/media/repository.c3db0903.mp3"
+  },
+  {
+    "revision": "27bde150de2ab7bf92749839a53b06d8",
+    "url": "/static/media/root.27bde150.mp3"
   },
   {
     "revision": "c3abde2fc32400fdb121934c2099a52e",
