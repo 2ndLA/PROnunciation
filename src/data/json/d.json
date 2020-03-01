@@ -37,8 +37,8 @@
     ]
   },
   "dind": {
-    "spell": "dind",
-    "symbol": "/dɪŋ/|Docker inside Docker",
+    "spell": "DinD",
+    "symbol": "/dɪŋd/|Docker inside Docker",
     "audio": "dind.mp3",
     "references": [
       {
