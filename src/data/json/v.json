@@ -2,7 +2,6 @@
   "vagrant": {
     "spell": "Vagrant",
     "symbol": "/'veɪgr(ə)nt/",
-    "audio": "Vagrant.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "virtualenv": {
     "spell": "virtualenv",
     "symbol": "/ˈvɜ:tʃuəl iː en 'vi/",
-    "audio": "virtualenv.mp3",
     "references": [
       {
         "desc": "YouTube",
@@ -24,7 +22,6 @@
   "vlan": {
     "spell": "Vlan",
     "symbol": "/vi'læn/|Vee-Lan",
-    "audio": "Vlan.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -35,7 +32,6 @@
   "vultr": {
     "spell": "Vultr",
     "symbol": "/'vʌltʃə/",
-    "audio": "Vultr.mp3",
     "references": [
       {
         "desc": "Google Translate",

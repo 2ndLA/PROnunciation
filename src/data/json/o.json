@@ -1,8 +1,7 @@
 {
-  "o'reilly": {
+  "o_reilly": {
     "spell": "O'Reilly",
     "symbol": "/əʊˈɹaɪli/",
-    "audio": "O'Reilly.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "object": {
     "spell": "object",
     "symbol": "/ˈɑːbdʒekt/",
-    "audio": "object.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "opensuse": {
     "spell": "openSUSE",
     "symbol": "/əʊp(ə)nˈsuːsə/",
-    "audio": "openSUSE.mp3",
     "references": [
       {
         "desc": "Wikipedia",
@@ -39,7 +36,6 @@
   "overlay": {
     "spell": "overlay",
     "symbol": "/əʊvə'leɪ/",
-    "audio": "overlay.mp3",
     "references": [
       {
         "desc": "Youdao",
@@ -50,7 +46,6 @@
   "owasp": {
     "spell": "OWASP",
     "symbol": "/'əʊwɑsp/",
-    "audio": "OWASP.mp3",
     "references": [
       {
         "desc": "Youdao",

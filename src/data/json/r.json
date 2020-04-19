@@ -2,7 +2,6 @@
   "rally": {
     "spell": "Rally",
     "symbol": "/'ræli/",
-    "audio": "Rally.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "rancher": {
     "spell": "Rancher",
     "symbol": "/'ræntʃɚ/",
-    "audio": "Rancher.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "raspberry": {
     "spell": "Raspberry",
     "symbol": "/'rɑːzb(ə)rɪ/",
-    "audio": "Raspberry.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -35,7 +32,6 @@
   "repository": {
     "spell": "repository",
     "symbol": "/rɪ'pɒzɪt(ə)rɪ/",
-    "audio": "repository.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -46,7 +42,6 @@
   "rest": {
     "spell": "REST",
     "symbol": "/rest/",
-    "audio": "REST.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -57,7 +52,6 @@
   "root": {
     "spell": "root",
     "symbol": "/ruːt/",
-    "audio": "root.mp3",
     "references": [
       {
         "desc": "Google Translate",

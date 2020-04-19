@@ -2,7 +2,6 @@
   "maven": {
     "spell": "Maven",
     "symbol": "/'meɪv(ə)n/",
-    "audio": "Maven.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "mercurial": {
     "spell": "Mercurial",
     "symbol": "/mɜːrˈkjʊriəl/",
-    "audio": "Mercurial.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -28,7 +26,6 @@
   "metasploit": {
     "spell": "Metasploit",
     "symbol": "/'metəsplɔɪt/",
-    "audio": "Metasploit.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -39,7 +36,6 @@
   "msbuild": {
     "spell": "MSBuild",
     "symbol": "/'ɛm 'ɛs 'bɪld/",
-    "audio": "MSBuild.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -50,7 +46,6 @@
   "myisam": {
     "spell": "MyISAM",
     "symbol": "/maɪˈaɪːsæm/|My, I, Sam",
-    "audio": "MyISAM.mp3",
     "references": [
       {
         "desc": "Youtube",
@@ -61,7 +56,6 @@
   "mysql": {
     "spell": "MySQL",
     "symbol": "/maɪˌɛskjuː'ɛl/",
-    "audio": "MySQL.mp3",
     "references": [
       {
         "desc": "Google Translate",

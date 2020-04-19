@@ -2,7 +2,6 @@
   "kali": {
     "spell": "Kali",
     "symbol": "/'kɑli/",
-    "audio": "Kali.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -13,7 +12,6 @@
   "kanboard": {
     "spell": "Kanboard",
     "symbol": "/'kɛnbɔːɹd/",
-    "audio": "Kanboard.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "kubernetes": {
     "spell": "Kubernetes",
     "symbol": "/k(j)uːbə'nɛtɪs/",
-    "audio": "Kubernetes.mp3",
     "references": [
       {
         "desc": "HowToPronounce",

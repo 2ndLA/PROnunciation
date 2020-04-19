@@ -2,7 +2,6 @@
   "query": {
     "spell": "query",
     "symbol": "/'kwɪərɪ/",
-    "audio": "query.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "quicksort": {
     "spell": "Quicksort",
     "symbol": "/ˈkwɪkˌsɔɹt/",
-    "audio": "Quicksort.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "quora": {
     "spell": "Quora",
     "symbol": "/ˈkwɔːrə/",
-    "audio": "Quora.mp3",
     "references": [
       {
         "desc": "Google Translate",

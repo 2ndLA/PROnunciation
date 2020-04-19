@@ -2,7 +2,6 @@
   "saas": {
     "spell": "SaaS",
     "symbol": "/sɑs/|Software as a Service",
-    "audio": "SaaS.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -13,7 +12,6 @@
   "sandbox": {
     "spell": "sandbox",
     "symbol": "/'sæn(d)bɒks/",
-    "audio": "sandbox.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "schema": {
     "spell": "schema",
     "symbol": "/'skiːmə/",
-    "audio": "schema.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -35,7 +32,6 @@
   "scrum": {
     "spell": "Scrum",
     "symbol": "/skɹʌm/",
-    "audio": "Scrum.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -46,7 +42,6 @@
   "sed": {
     "spell": "sed",
     "symbol": "/sed/",
-    "audio": "sed.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -57,7 +52,6 @@
   "selenium": {
     "spell": "Selenium",
     "symbol": "/sɪˈliː.ni.əm/",
-    "audio": "Selenium.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -68,7 +62,6 @@
   "seo": {
     "spell": "SEO",
     "symbol": "ˌ/ɛs i ˈoʊ/|Search Engine Optimization",
-    "audio": "SEO.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -79,7 +72,6 @@
   "spinnaker": {
     "spell": "Spinnaker",
     "symbol": "/'spɪnəkə/",
-    "audio": "Spinnaker.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -87,10 +79,9 @@
       }
     ]
   },
-  "spring boot": {
+  "spring_boot": {
     "spell": "Spring Boot",
     "symbol": "/sprɪŋˈbut/",
-    "audio": "Spring Boot.mp3",
     "references": [
       {
         "desc": "Youdao",
@@ -101,7 +92,6 @@
   "sql": {
     "spell": "SQL",
     "symbol": "/ˈsiːkwəl/|Also: /ˌɛsˌkjuːˈɛl/",
-    "audio": "SQL.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -116,7 +106,6 @@
   "subversion": {
     "spell": "Subversion",
     "symbol": "/səbˈvɜrʒ(ə)n/",
-    "audio": "Subversion.mp3",
     "references": [
       {
         "desc": "Cambridge Dict",
@@ -127,7 +116,6 @@
   "svn": {
     "spell": "SVN",
     "symbol": "/ɛsvi'ɛn/",
-    "audio": "SVN.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -138,7 +126,6 @@
   "swarm": {
     "spell": "Swarm",
     "symbol": "/swɔrm/",
-    "audio": "Swarm.mp3",
     "references": [
       {
         "desc": "Google Translate",

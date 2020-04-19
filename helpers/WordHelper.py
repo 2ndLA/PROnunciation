@@ -25,6 +25,7 @@ from concurrent.futures import ThreadPoolExecutor
 import collections
 import json
 import os
+import re
 import urllib.request
 from urllib.error import URLError
 
@@ -33,7 +34,8 @@ GOOGLE_TRANSLATE_AUDIO_API = (
     "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=en&q="
 )
 GOOGLE_TRANSLATE_CN = (
-    "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text={}"
+    "https://translate.google.cn/"
+    "#view=home&op=translate&sl=en&tl=zh-CN&text={}"
 )
 DATA_DIR = "../src/data/json/"
 JSON_FILE_EXT = ".json"
@@ -55,7 +57,8 @@ def prompt_then_exit(msg):
 def update_word_db(word, letter):
     """
     Update word_db by given `word`'s first letter.
-    New word will be inserted into word_db only when this function return `True`
+    New word will be inserted into word_db only
+    when this function return `True`
     """
     if os.path.exists(DATA_DIR) and os.path.isdir(DATA_DIR):
         if letter in word_db.keys():
@@ -73,7 +76,9 @@ def update_word_db(word, letter):
             except FileNotFoundError:
                 with open(os.path.join(DATA_DIR, json_file), "w+") as fp:
                     word_db[letter] = {}
-                    json.dump(word_db[letter], fp, indent=2, ensure_ascii=False)
+                    json.dump(
+                        word_db[letter], fp, indent=2, ensure_ascii=False
+                    )
                     print("File `{file}` created.".format(file=json_file))
             return True
     else:
@@ -88,7 +93,7 @@ def download_audio_resource(word):
         print("Audio already exists, downloading being skiped.")
         return
     url = GOOGLE_TRANSLATE_AUDIO_API + word
-    url = urllib.parse.quote(url, safe="://./_\?=&")
+    url = urllib.parse.quote(url, safe="://./_?=&")
     audio_name = word + AUDIO_EXT
     # fake user-agent to prevent 403 error
     opener = urllib.request.build_opener()
@@ -104,17 +109,19 @@ def download_audio_resource(word):
     print("Download `{0}.mp3` successfully.".format(word))
 
 
-def insert_new_word(word, letter):
+def insert_new_word(word, word_stripped, letter):
     # insert new word into word_db
     new_word = {
         "spell": word,
         "symbol": "/placeholder/",
-        "audio": "{0}.mp3".format(word),
         "references": [
-            {"desc": "Google Translate", "url": GOOGLE_TRANSLATE_CN.format(word)}
+            {
+                "desc": "Google Translate",
+                "url": GOOGLE_TRANSLATE_CN.format(word)
+            }
         ],
     }
-    word_db[letter][word.lower()] = new_word
+    word_db[letter][word_stripped] = new_word
 
 
 def sync_word_db_to_file():
@@ -126,11 +133,13 @@ def sync_word_db_to_file():
 
 
 def process_word(word):
-    letter = word[0].lower()
+    letter_leading = re.sub('^[^a-z]+', '', word.lower())
+    letter = letter_leading[0]
+    word_stripped = re.sub('[^0-9a-z]+', '_', word.lower())
     if update_word_db(word, letter):
         # word does not exist in word_db
-        download_audio_resource(word)
-        insert_new_word(word, letter)
+        download_audio_resource(word_stripped)
+        insert_new_word(word, word_stripped, letter)
     else:
         print("`{0}` already exists, being skipped.".format(word))
 

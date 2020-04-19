@@ -2,14 +2,13 @@
   "nagios": {
     "spell": "Nagios",
     "symbol": "/ˈnɑːɡiːoʊs/|nah-ghee-ose",
-    "audio": "Nagios.mp3",
     "references": [
       {
         "desc": "Google Translate",
         "url": "https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN&text=Nagios"
       },
       {
-        "desc":"Server Fault",
+        "desc": "Server Fault",
         "url": "https://serverfault.com/questions/294622/what-is-the-correct-pronunciation-of-nagios"
       }
     ]
@@ -17,7 +16,6 @@
   "nginx": {
     "spell": "nginx",
     "symbol": "/'endʒɪn.eks/",
-    "audio": "nginx.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -28,7 +26,6 @@
   "nmon": {
     "spell": "nmon",
     "symbol": "/'en.mɒŋ/",
-    "audio": "nmon.mp3",
     "references": [
       {
         "desc": "YouTube",

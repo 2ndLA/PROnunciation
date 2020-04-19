@@ -2,7 +2,6 @@
   "bamboo": {
     "spell": "Bamboo",
     "symbol": " /bæmˈbuː/",
-    "audio": "Bamboo.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "bash": {
     "spell": "bash",
     "symbol": "/bæʃ/",
-    "audio": "bash.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "bochs": {
     "spell": "Bochs",
     "symbol": "/bɔx/",
-    "audio": "Bochs.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -32,10 +29,9 @@
       }
     ]
   },
-  "burp suite": {
+  "burp_suite": {
     "spell": "Burp Suite",
     "symbol": "/'bɜːp swiːt/",
-    "audio": "Burp Suite.mp3",
     "references": [
       {
         "desc": "Google Translate",

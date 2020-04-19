@@ -2,7 +2,6 @@
   "tensorflow": {
     "spell": "Tensorflow",
     "symbol": "/'tɛnsɚfləʊ/",
-    "audio": "Tensorflow.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "terraform": {
     "spell": "Terraform",
     "symbol": "/'tɛrəfɔːm/",
-    "audio": "Terraform.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "travis": {
     "spell": "Travis",
     "symbol": "/ˈtɹævɪs/",
-    "audio": "Travis.mp3",
     "references": [
       {
         "desc": "Google Translate",

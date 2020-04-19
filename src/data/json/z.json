@@ -2,7 +2,6 @@
   "zabbix": {
     "spell": "Zabbix",
     "symbol": "/'zæbɪks/",
-    "audio": "Zabbix.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "zenodo": {
     "spell": "Zenodo",
     "symbol": "/zɜ'nəʊdəʊ/",
-    "audio": "Zenodo.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "zookeeper": {
     "spell": "Zookeeper",
     "symbol": "/zu'kipɚ/",
-    "audio": "Zookeeper.mp3",
     "references": [
       {
         "desc": "Google Translate",

@@ -2,7 +2,6 @@
   "gecko": {
     "spell": "Gecko",
     "symbol": "/'gekəʊ/",
-    "audio": "Gecko.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "gherkin": {
     "spell": "Gherkin",
     "symbol": "/'gɜːkɪn/",
-    "audio": "Gherkin.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "git": {
     "spell": "Git",
     "symbol": "/'ɡɪt/",
-    "audio": "Git.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -35,7 +32,6 @@
   "github": {
     "spell": "GitHub",
     "symbol": "/'ɡɪt.hʌb/",
-    "audio": "GitHub.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -46,7 +42,6 @@
   "gitlab": {
     "spell": "GitLab",
     "symbol": "/'ɡɪt.læb/",
-    "audio": "GitLab.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -57,7 +52,6 @@
   "gnu": {
     "spell": "GNU",
     "symbol": "/gnu:/",
-    "audio": "GNU.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -68,7 +62,6 @@
   "gradle": {
     "spell": "Gradle",
     "symbol": "/g'reɪdl/",
-    "audio": "Gradle.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -79,7 +72,6 @@
   "grep": {
     "spell": "grep",
     "symbol": "/grep/|g/re/p",
-    "audio": "grep.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -90,7 +82,6 @@
   "gunicorn": {
     "spell": "Gunicorn",
     "symbol": "/griːn 'juːnɪkɔːn/|Green Unicorn",
-    "audio": "Gunicorn.mp3",
     "references": [
       {
         "desc": "Gunicorn (GitHub)",
