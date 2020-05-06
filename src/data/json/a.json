@@ -2,7 +2,6 @@
   "agent": {
     "spell": "agent",
     "symbol": "/'eɪdʒ(ə)nt/",
-    "audio": "agent.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "aggregate": {
     "spell": "aggregate",
     "symbol": "/ˈægrɪgeɪt/",
-    "audio": "aggregate.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "airbnb": {
     "spell": "Airbnb",
     "symbol": "/'ɛəɹ'bi.ɛn'bi/",
-    "audio": "Airbnb.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -39,7 +36,6 @@
   "alias": {
     "spell": "alias",
     "symbol": "/ˈeɪliəs/",
-    "audio": "alias.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -50,7 +46,6 @@
   "annotate": {
     "spell": "annotate",
     "symbol": "/'ænəteɪt/",
-    "audio": "annotate.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -61,7 +56,6 @@
   "ansible": {
     "spell": "Ansible",
     "symbol": "/'æn.sɪ.bəl/",
-    "audio": "Ansible.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -76,7 +70,6 @@
   "ant": {
     "spell": "Ant",
     "symbol": "/ænt/",
-    "audio": "Ant.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -87,7 +80,6 @@
   "apache": {
     "spell": "Apache",
     "symbol": "/əˈpætʃɪ/",
-    "audio": "Apache.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -98,7 +90,6 @@
   "arch": {
     "spell": "Arch",
     "symbol": "/ɑːtʃ/",
-    "audio": "Arch.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -109,7 +100,6 @@
   "async": {
     "spell": "async",
     "symbol": "/'eɪsɪŋk/",
-    "audio": "async.mp3",
     "references": [
       {
         "desc": "YouTube",
@@ -120,7 +110,6 @@
   "await": {
     "spell": "await",
     "symbol": "/ə'weɪt/",
-    "audio": "await.mp3",
     "references": [
       {
         "desc": "Youdao",
@@ -131,7 +120,6 @@
   "axios": {
     "spell": "axios",
     "symbol": "/,æk'si:əus/|acks--ee--oh-ss",
-    "audio": "axios.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -146,7 +134,6 @@
   "azure": {
     "spell": "Azure",
     "symbol": "/'æʒə/",
-    "audio": "Azure.mp3",
     "references": [
       {
         "desc": "Google Translate",

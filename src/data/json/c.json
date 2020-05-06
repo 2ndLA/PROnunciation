@@ -2,7 +2,6 @@
   "caas": {
     "spell": "CaaS",
     "symbol": "/kɑs/|Container as a Service",
-    "audio": "CaaS.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -13,7 +12,6 @@
   "cache": {
     "spell": "cache",
     "symbol": "/kæʃ/",
-    "audio": "cache.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "calico": {
     "spell": "Calico",
     "symbol": "/ˈkælɪkoʊ/",
-    "audio": "Calico.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -35,7 +32,6 @@
   "cassandra": {
     "spell": "Cassandra",
     "symbol": "/kə'sændrə/",
-    "audio": "Cassandra.mp3",
     "references": [
       {
         "desc": "Youdao",
@@ -46,7 +42,6 @@
   "centos": {
     "spell": "CentOS",
     "symbol": "/ˈsɛntəʊs/|/ˈsɛntɒs/(Wikipedia)",
-    "audio": "CentOS.mp3",
     "references": [
       {
         "desc": "centos.org",
@@ -65,7 +60,6 @@
   "chef": {
     "spell": "Chef",
     "symbol": "/ʃɛf/",
-    "audio": "Chef.mp3",
     "references": [
       {
         "desc": "Cambridge Dict",
@@ -76,7 +70,6 @@
   "chrome": {
     "spell": "Chrome",
     "symbol": "/kroʊm/",
-    "audio": "Chrome.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -87,7 +80,6 @@
   "concurrent": {
     "spell": "concurrent",
     "symbol": "/kən'kʌr(ə)nt/",
-    "audio": "concurrent.mp3",
     "references": [
       {
         "desc": "Youdao",
@@ -98,7 +90,6 @@
   "coroutine": {
     "spell": "coroutine",
     "symbol": "/,kəuru:'ti:n/",
-    "audio": "coroutine.mp3",
     "references": [
       {
         "desc": "Youdao",
@@ -109,7 +100,6 @@
   "cucumber": {
     "spell": "Cucumber",
     "symbol": "/ˈkjuˌkʌmbər/",
-    "audio": "Cucumber.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -120,7 +110,6 @@
   "curl": {
     "spell": "curl",
     "symbol": "/kɜːl/",
-    "audio": "curl.mp3",
     "references": [
       {
         "desc": "Google Translate",

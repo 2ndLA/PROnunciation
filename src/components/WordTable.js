@@ -169,7 +169,7 @@ const WordRow = (props) => {
         {explanation && <PopOver exp={explanation} />}
       </td>
       <td className="cell" align="center">
-        {props.audio === '' ? null : (<Player {...props} />)}
+        {props.audio ? (<Player {...props} />) : null}
       </td>
       <td className="cell cell-optional">
         <ul style={{ margin: 0 }}>
@@ -199,8 +199,10 @@ const WordTable = (props) => {
     const words = { ...data.words };
     let wordComponents = null;
     if (data.header.expand) {
-      wordComponents = Object.values(words).map(
-        (row, index) => (<WordRow {...row} key={row.spell} index={index} />),
+      wordComponents = Object.entries(words).map(
+        ([wordKey, word], index) => (
+          <WordRow {...word} key={wordKey} audio={`${wordKey}.mp3`} index={index} />
+        ),
       );
     }
     return (

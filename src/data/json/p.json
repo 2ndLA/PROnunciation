@@ -2,7 +2,6 @@
   "paas": {
     "spell": "PaaS",
     "symbol": "/pæs/|Platform as a Service",
-    "audio": "PaaS.mp3",
     "references": [
       {
         "desc": "Youtube",
@@ -13,7 +12,6 @@
   "pattern": {
     "spell": "pattern",
     "symbol": "/ˈpætərn/",
-    "audio": "pattern.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -24,7 +22,6 @@
   "phantomjs": {
     "spell": "PhantomJS",
     "symbol": "/'fæntəm dʒeɪ ɛs/",
-    "audio": "PhantomJS.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -35,7 +32,6 @@
   "pipeline": {
     "spell": "Pipeline",
     "symbol": "/'paɪplaɪn/",
-    "audio": "Pipeline.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -46,7 +42,6 @@
   "png": {
     "spell": "PNG",
     "symbol": "/pɪŋ/",
-    "audio": "PNG.mp3",
     "references": [
       {
         "desc": "Twitter",
@@ -57,7 +52,6 @@
   "postgresql": {
     "spell": "PostgreSQL",
     "symbol": "/ˈpoʊstɡrɛs ˌkjuː ˈɛl/|post-grehs-Q-L",
-    "audio": "PostgreSQL.mp3",
     "references": [
       {
         "desc": "Quora",
@@ -68,7 +62,6 @@
   "puppet": {
     "spell": "Puppet",
     "symbol": "/'pʌpɪt/",
-    "audio": "Puppet.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -79,7 +72,6 @@
   "pwn": {
     "spell": "pwn",
     "symbol": "/pɔːn/",
-    "audio": "pwn.mp3",
     "references": [
       {
         "desc": "YouTube",
@@ -90,7 +82,6 @@
   "pycharm": {
     "spell": "PyCharm",
     "symbol": "/paɪˌtʃɑːm/",
-    "audio": "PyCharm.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -101,7 +92,6 @@
   "python": {
     "spell": "Python",
     "symbol": "/'paɪθɑn/",
-    "audio": "Python.mp3",
     "references": [
       {
         "desc": "Google Translate",

@@ -2,7 +2,6 @@
   "daemon": {
     "spell": "Daemon",
     "symbol": "/'dimən/",
-    "audio": "Daemon.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -13,7 +12,6 @@
   "devops": {
     "spell": "DevOps",
     "symbol": "/'dev.ɒps/",
-    "audio": "DevOps.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -24,7 +22,6 @@
   "dijkstra": {
     "spell": "Dijkstra",
     "symbol": "/ˈdɑɪkstɹə/|DYKE-struh",
-    "audio": "Dijkstra.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -39,7 +36,6 @@
   "dind": {
     "spell": "DinD",
     "symbol": "/dɪŋd/|Docker inside Docker",
-    "audio": "dind.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -50,7 +46,6 @@
   "django": {
     "spell": "django",
     "symbol": "/ˈdʒæŋɡo/",
-    "audio": "django.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -61,7 +56,6 @@
   "docker": {
     "spell": "docker",
     "symbol": "/'dɒkə/",
-    "audio": "docker.mp3",
     "references": [
       {
         "desc": "Google Translate",
@@ -72,7 +66,6 @@
   "dump": {
     "spell": "dump",
     "symbol": "/dʌmp/",
-    "audio": "dump.mp3",
     "references": [
       {
         "desc": "Google Translate",

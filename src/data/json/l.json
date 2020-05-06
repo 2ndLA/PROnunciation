@@ -2,7 +2,6 @@
   "lint": {
     "spell": "lint",
     "symbol": "/lɪnt/",
-    "audio": "lint.mp3",
     "references": [
       {
         "desc": "Youdao",
@@ -13,7 +12,6 @@
   "linux": {
     "spell": "Linux",
     "symbol": "/ˈlɪnəks/",
-    "audio": "Linux.mp3",
     "references": [
       {
         "desc": "Google Translate",

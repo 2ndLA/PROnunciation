@@ -2,7 +2,6 @@
   "iaas": {
     "spell": "IaaS",
     "symbol": "/aɪs/|Infrastructure as a Service",
-    "audio": "IaaS.mp3",
     "references": [
       {
         "desc": "Redit",
@@ -17,7 +16,6 @@
   "idempotent": {
     "spell": "idempotent",
     "symbol": "/aɪdəmˈpoʊtənt/",
-    "audio": "idempotent.mp3",
     "references": [
       {
         "desc": "Wiktionary",
@@ -28,7 +26,6 @@
   "innodb": {
     "spell": "InnoDB",
     "symbol": "/ɪnəʊ diː bi:/",
-    "audio": "InnoDB.mp3",
     "references": [
       {
         "desc": "HowToPronounce",
@@ -39,7 +36,6 @@
   "itil": {
     "spell": "ITIL",
     "symbol": "/'aɪtɪl/",
-    "audio": "ITIL.mp3",
     "references": [
       {
         "desc": "YouTube",
