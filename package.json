@@ -50,5 +50,16 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0"
+  },
+  "resolutions": {
+    "dot-prop": "^4.2.1",
+    "elliptic": "^6.5.3",
+    "http-proxy": "^1.18.1",
+    "lodash": "^4.17.19",
+    "minimist": "^0.2.1",
+    "node-forge": "^0.10.0",
+    "serialize-javascript": "",
+    "websocket-extensions": "^0.1.4",
+    "yargs-parser": "^13.1.2"
   }
 }
