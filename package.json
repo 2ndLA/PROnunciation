@@ -10,7 +10,7 @@
     "clsx": "^1.0.4",
     "gh-pages": "^2.0.1",
     "kind-of": "^6.0.3",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "lodash.template": "^4.5.0",
     "minimist": "^0.2.1",
     "polyfill": "^0.1.0",
