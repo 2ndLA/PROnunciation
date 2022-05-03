@@ -22,12 +22,13 @@
     "typeface-roboto": "^0.0.54"
   },
   "scripts": {
+    "prepare": "husky install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "yarn run build && source .env && echo $REACT_APP_DOMAIN > ./build/CNAME",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,11 +48,14 @@
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/eslint-parser": "^7.16.5",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "eslint": "^8.4.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0"
+    "eslint-plugin-react": "^7.13.0",
+    "husky": "^7.0.4"
   },
   "resolutions": {
     "dot-prop": "^4.2.1",
