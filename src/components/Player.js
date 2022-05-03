@@ -6,13 +6,13 @@ import styled from 'styled-components';
 import PlayIcon from '@material-ui/icons/PlayCircleFilled';
 import StopIcon from '@material-ui/icons/PauseCircleFilled';
 import LoadIcon from '@material-ui/icons/AutorenewRounded';
-import { fade } from '@material-ui/core/styles';
+import { alpha } from '@material-ui/core/styles';
 import { colors } from '@material-ui/core';
 
 const PlayerStyle = styled.div`
 .player:hover {
   cursor: pointer;
-  color: ${fade(colors.cyan[900], 0.8)};
+  color: ${alpha(colors.cyan[900], 0.8)};
 }
 .player {
   display: flex;
@@ -20,7 +20,7 @@ const PlayerStyle = styled.div`
   justify-content: center;
   width: 32px;
   height: 32px;
-  color: ${fade(colors.cyan[900], 0.6)};
+  color: ${alpha(colors.cyan[900], 0.6)};
 }
 .player svg {
   width: 100%;

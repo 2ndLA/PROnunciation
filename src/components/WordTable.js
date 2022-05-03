@@ -3,7 +3,7 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 import styled from 'styled-components';
-import { fade } from '@material-ui/core/styles';
+import { alpha } from '@material-ui/core/styles';
 import { colors } from '@material-ui/core';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
@@ -32,14 +32,14 @@ const WordTableStyle = styled.div`
   }
 
   .row-odd {
-    background: ${fade(colors.blueGrey[900], 0.02)};
+    background: ${alpha(colors.blueGrey[900], 0.02)};
   }
   
   .leading-row {
-    border-top: 3px solid ${fade(colors.cyan[900], 0.1)};
-    background: ${fade(colors.blueGrey[900], 0.05)};;
+    border-top: 3px solid ${alpha(colors.cyan[900], 0.1)};
+    background: ${alpha(colors.blueGrey[900], 0.05)};;
     font-weight: bolder;
-    color: ${fade(colors.blueGrey[800], 0.7)};
+    color: ${alpha(colors.blueGrey[800], 0.7)};
   }
 
   .leading-row:hover {
@@ -89,11 +89,11 @@ const WordTableStyle = styled.div`
 
   .cell .cell-reference-link {
     opacity: 0.8;
-    color: ${fade(colors.blueGrey[900], 0.7)};;
+    color: ${alpha(colors.blueGrey[900], 0.7)};;
     margin: 5px 0;
     :hover {
       opacity: 1;
-      text-shadow: ${fade(colors.cyan[700], 0.7)} 0 0 20px;
+      text-shadow: ${alpha(colors.cyan[700], 0.7)} 0 0 20px;
       text-decoration: underline;
     }
   }
@@ -115,7 +115,7 @@ const WordTableStyle = styled.div`
 
   .sub-header-badge {
     border-radius: 30px;
-    background-color: ${fade(colors.cyan[900], 0.7)};
+    background-color: ${alpha(colors.cyan[900], 0.7)};
     display: inline-block;
     line-height: 25px;
     min-width: 26px;

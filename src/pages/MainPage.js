@@ -39,20 +39,24 @@ const Wrapper = styled.div`
 `;
 
 export default class MainPage extends Component {
-  state = {
-    dictionary,
-    expand: true,
+  constructor() {
+    super();
+    this.state = {
+      dictionary,
+      expand: true,
+    };
   }
 
   handleSearch = (event) => {
     const searchText = event.target.value;
     if (searchText) {
-      const words = Object.assign({}, ...dictionary.map(row => row.words));
+      const words = Object.assign({}, ...dictionary.map((row) => row.words));
       const filteredKeys = Object.keys(words).filter(
-        word => word.toLowerCase().includes(searchText.trim().toLowerCase()),
+        (word) => word.toLowerCase().includes(searchText.trim().toLowerCase()),
       );
       const filterWords = filteredKeys.reduce(
-        (obj, key) => ({ ...obj, [key]: words[key] }), {},
+        (obj, key) => ({ ...obj, [key]: words[key] }),
+        {},
       );
       const result = [{
         header: {
@@ -65,27 +69,26 @@ export default class MainPage extends Component {
     } else {
       this.handleReset();
     }
-  }
+  };
 
   handleReset = () => {
     this.setState({ dictionary });
-  }
+  };
 
   onToggle = () => {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       expand: !prevState.expand,
       dictionary: prevState.dictionary.map(
-        section => (
-          {
-            ...section,
-            header: { ...section.header, expand: !prevState.expand },
-          }),
+        (section) => ({
+          ...section,
+          header: { ...section.header, expand: !prevState.expand },
+        }),
       ),
     }));
-  }
+  };
 
   onHeaderClick = (letter) => {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       dictionary: prevState.dictionary.map(
         (section) => {
           if (section.header.letter === letter) {
@@ -98,11 +101,11 @@ export default class MainPage extends Component {
         },
       ),
     }));
-  }
+  };
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <Header
           onSearch={this.handleSearch}
           onReset={this.handleReset}
@@ -121,7 +124,7 @@ export default class MainPage extends Component {
               : <ArrowLeftIcon />}
           </Fab>
         </Wrapper>
-      </React.Fragment>
+      </>
     );
   }
 }

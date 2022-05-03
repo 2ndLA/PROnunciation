@@ -127,8 +127,13 @@ const styles = (theme) => ({
   },
 });
 
-const MenuLink = (props) => (
-  <a href={props.url} target={props.target} className={props.className}>
+const MenuLink = (props, ref) => (
+  <a
+    href={props.url}
+    target={props.target}
+    className={props.className}
+    ref={ref}
+  >
     {props.img && (
       <img
         src={props.img}
@@ -139,7 +144,7 @@ const MenuLink = (props) => (
         }}
       />
     )}
-    {!props.imgOnly && props.name}
+    {!props.imgonly && props.name}
   </a>
 );
 
@@ -249,7 +254,7 @@ class Header extends Component {
                           name={item.name}
                           target="_blank"
                           img={item.img}
-                          imgOnly={item.imgOnly}
+                          imgonly={item.imgonly}
                           classes={{ root: classes.tabItem }}
                           key={index}
                         />

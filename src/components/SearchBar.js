@@ -5,15 +5,15 @@ import {
 } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 import Cancel from '@material-ui/icons/Cancel';
-import { fade } from '@material-ui/core/styles';
+import { alpha } from '@material-ui/core/styles';
 
 const styles = (theme) => ({
   search: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.black, 0.05),
+    backgroundColor: alpha(theme.palette.common.black, 0.05),
     '&:hover': {
-      backgroundColor: fade(theme.palette.common.black, 0.1),
+      backgroundColor: alpha(theme.palette.common.black, 0.1),
     },
     width: '100%',
     [theme.breakpoints.up('sm')]: {

@@ -1,23 +1,23 @@
 import clsx from 'clsx';
 import React, { Component } from 'react';
 import { colors, withStyles } from '@material-ui/core';
-import { fade } from '@material-ui/core/styles';
+import { alpha } from '@material-ui/core/styles';
 import HelpIcon from '@material-ui/icons/HelpOutline';
 
 const styles = (theme) => {
   const helpIconHeight = theme.spacing(2.2);
   const arrowHeight = 5;
-  const borderColor = fade(colors.blueGrey[200], 0.5);
-  const backgroundColor = fade(colors.blueGrey[50], 1);
+  const borderColor = alpha(colors.blueGrey[200], 0.5);
+  const backgroundColor = alpha(colors.blueGrey[50], 1);
   return {
     helpIcon: {
       height: helpIconHeight,
       width: helpIconHeight,
-      color: fade(colors.cyan[900], 0.7),
+      color: alpha(colors.cyan[900], 0.7),
       marginBottom: -theme.spacing(0.5),
       '&:hover': {
         cursor: 'pointer',
-        color: fade(colors.cyan[900], 0.5),
+        color: alpha(colors.cyan[900], 0.5),
       },
     },
     popContainer: {
@@ -29,7 +29,7 @@ const styles = (theme) => {
       transform: `translate(calc(-50% + ${helpIconHeight / 2}px), 
         calc(-100% - ${helpIconHeight}px - ${arrowHeight}px))`,
       backgroundColor,
-      color: fade(colors.cyan[900], 1),
+      color: alpha(colors.cyan[900], 1),
       padding: theme.spacing(1, 2),
       fontSize: theme.spacing(1.4),
       whiteSpace: 'nowrap',
