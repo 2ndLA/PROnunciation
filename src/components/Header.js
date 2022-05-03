@@ -15,7 +15,7 @@ import {
   withStyles,
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import { fade } from '@material-ui/core/styles';
+import { alpha } from '@material-ui/core/styles';
 
 import Menu from './Menu';
 import SearchBar from './SearchBar';
@@ -23,7 +23,7 @@ import { total } from '../data';
 
 const logo = require('../assets/pron.png');
 
-const styles = theme => ({
+const styles = (theme) => ({
   appBar: {
     position: 'fixed',
     boxShadow: `0 2px 8px ${theme.palette.grey['300']};`,
@@ -107,7 +107,7 @@ const styles = theme => ({
     minHeight: '40px',
     minWidth: 'auto',
     '&:hover': {
-      backgroundColor: fade(colors.cyan[800], 0.1),
+      backgroundColor: alpha(colors.cyan[800], 0.1),
       borderRadius: '40px',
       color: colors.cyan[800],
     },
@@ -121,13 +121,13 @@ const styles = theme => ({
     minHeight: '4em',
     color: theme.palette.grey['600'],
     '&:hover': {
-      backgroundColor: fade(colors.cyan[800], 0.1),
+      backgroundColor: alpha(colors.cyan[800], 0.1),
       color: colors.cyan[800],
     },
   },
 });
 
-const MenuLink = (props, ref) => (
+const MenuLink = (props) => (
   <a href={props.url} target={props.target} className={props.className}>
     {props.img && (
       <img
@@ -138,27 +138,30 @@ const MenuLink = (props, ref) => (
           paddingRight: '5px',
         }}
       />
-    ) }
+    )}
     {!props.imgOnly && props.name}
   </a>
 );
 
 class Header extends Component {
-  state = {
-    menuDrawer: false,
-  };
+  constructor() {
+    super();
+    this.state = {
+      menuDrawer: false,
+    };
+  }
 
   componentDidMount() {
     window.scrollTo(0, 0);
   }
 
-  mobileMenuOpen = (event) => {
+  mobileMenuOpen = () => {
     this.setState({ menuDrawer: true });
-  }
+  };
 
-  mobileMenuClose = (event) => {
+  mobileMenuClose = () => {
     this.setState({ menuDrawer: false });
-  }
+  };
 
   render() {
     const { classes } = this.props;
