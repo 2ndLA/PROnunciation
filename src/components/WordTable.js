@@ -158,8 +158,11 @@ const WordRow = (props) => {
   const symbol = phonetics[0];
   const explanation = phonetics[1];
   return (
-    <tr className={classNames('row', 'common-row',
-      { 'row-odd': props.index % 2 !== 0 })}
+    <tr className={classNames(
+      'row',
+      'common-row',
+      { 'row-odd': props.index % 2 !== 0 },
+    )}
     >
       <td className="cell">
         {props.spell}
@@ -219,7 +222,7 @@ const WordTable = (props) => {
 
   const theadMarkup = (
     <tr className="row" key="heading">
-      {headers.map(cell => (
+      {headers.map((cell) => (
         <th
           className={classNames('cell', 'center', { 'cell-optional': cell === 'References' })}
           key={cell}

@@ -39,25 +39,31 @@ const PlayerStyle = styled.div`
 `;
 
 export default class Player extends Component {
-  state = {
-    playing: false,
-    loaded: false,
+  constructor() {
+    super();
+    this.state = {
+      playing: false,
+      loaded: false,
+    };
   }
 
   handleClick = () => {
     const audio = document.getElementById(`audio-${this.props.spell}`);
-    if (this.state.playing) audio.pause();
-    else audio.play();
-    this.setState(prevState => ({ playing: !prevState.playing }));
-  }
+    if (this.state.playing) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+    this.setState((prevState) => ({ playing: !prevState.playing }));
+  };
 
   handleEnded = () => {
     this.setState({ playing: false });
-  }
+  };
 
   handleCanPlay = () => {
     this.setState({ loaded: true });
-  }
+  };
 
   render() {
     let PlayerIcon;

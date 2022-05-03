@@ -4,7 +4,6 @@ import { colors, withStyles } from '@material-ui/core';
 import { fade } from '@material-ui/core/styles';
 import HelpIcon from '@material-ui/icons/HelpOutline';
 
-
 const styles = (theme) => {
   const helpIconHeight = theme.spacing(2.2);
   const arrowHeight = 5;
@@ -71,11 +70,15 @@ const styles = (theme) => {
   };
 };
 
-
 class SearchBar extends Component {
-  state = { show: false };
+  constructor() {
+    super();
+    this.state = { show: false };
+  }
 
-  handleClick = () => { this.setState(preState => ({ show: !preState.show })); }
+  handleClick = () => {
+    this.setState((preState) => ({ show: !preState.show }));
+  };
 
   render() {
     const { classes } = this.props;
